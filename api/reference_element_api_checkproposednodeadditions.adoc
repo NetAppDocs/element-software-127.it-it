@@ -1,0 +1,121 @@
+---
+permalink: api/reference_element_api_checkproposednodeadditions.html 
+sidebar: sidebar 
+keywords: proposed,node,additions,CheckProposedNodeAdditions,storage,checking 
+summary: È possibile utilizzare il metodo CheckProposedNodeAdditions per testare una serie di nodi di storage per verificare se è possibile aggiungerli a un cluster di storage senza errori o violazioni delle Best practice. 
+---
+= CheckProposedNodeAdditions
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare il `CheckProposedNodeAdditions` metodo per testare un set di nodi di storage per vedere se è possibile aggiungerli a un cluster di storage senza errori o violazioni delle Best practice.
+
+
+
+== Parametro
+
+Questo metodo ha il seguente parametro di input:
+
+|===
+| Nome | Descrizione | Tipo | Valore predefinito | Obbligatorio 
+
+
+ a| 
+nodi
+ a| 
+Un elenco degli indirizzi IP dello storage dei nodi di storage pronti per essere aggiunti a un cluster di storage.
+ a| 
+array di stringhe
+ a| 
+Nessuno
+ a| 
+Sì
+
+|===
+
+
+== Valori restituiti
+
+Questo metodo ha i seguenti valori restituiti:
+
+|===
+
+
+| Nome | Descrizione | Tipo 
+
+
+ a| 
+ProposedClusterValid
+ a| 
+Indica se i nodi di storage proposti costituirebbero o meno un cluster di storage valido. Valori possibili:
+
+* vero
+* falso
+
+ a| 
+booleano
+
+
+
+ a| 
+ProposedClusterErrors
+ a| 
+Errori che si verificano se un cluster di storage è stato creato utilizzando i nodi di storage proposti. Codici di errore possibili:
+
+* `nodesNoCapacity`: I nodi non avevano capacità utilizzabile.
+* `nodesTooLarge`: I nodi costituiscono una porzione troppo grande della capacità del cluster per lo schema di protezione attiva.
+* `nodesConnectFailed`: Impossibile connettersi ai nodi per eseguire query sulla configurazione hardware.
+* `nodesQueryFailed`: Non è stato possibile eseguire query sui nodi per la configurazione hardware.
+* `nodesClusterMember`: Gli indirizzi IP dei nodi sono già in uso nel cluster.
+* `nonFipsNodeCapable`: Impossibile aggiungere un nodo non compatibile con FIPS al cluster di archiviazione mentre la funzione di crittografia dell'unità FIPS 140-2 è attivata.
+* `nonFipsDrivesCapable`: Impossibile aggiungere al cluster un nodo con unità non compatibili FIPS mentre è attivata la funzione di crittografia dell'unità FIPS 140-2.
+
+ a| 
+array di stringhe
+
+|===
+
+
+== Esempio di richiesta
+
+Le richieste per questo metodo sono simili all'esempio seguente:
+
+[listing]
+----
+{
+	"method": "CheckProposedNodeAdditions",
+	"params": {
+	"nodes": [
+		"192.168.1.11",
+		"192.168.1.12",
+		"192.168.1.13",
+		"192.168.1.14"
+	]
+},
+	"id": 1
+}
+----
+
+
+== Esempio di risposta
+
+Questo metodo restituisce una risposta simile all'esempio seguente:
+
+[listing]
+----
+{
+	"id": 1,
+	"result": {
+		"proposedClusterValid": true,
+		"proposedClusterErrors": [ ]
+	}
+}
+----
+
+
+== Novità dalla versione
+
+11,0
