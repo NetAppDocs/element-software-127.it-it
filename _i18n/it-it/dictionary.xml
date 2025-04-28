@@ -7989,7 +7989,6 @@
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">Passaggio 1: Scaricare ISO o OVA e distribuire la VM</block>
   <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">Scaricare l'ISO o l'OVA appropriato dal sito di supporto NetApp e installare la VM.</block>
   <block id="12b8893b065179b6b80fdc2d448862df" category="inline-link-macro">Software Element</block>
-  <block id="4aee9657f267c579c49541b5f19ca32c" category="list-text">Scaricare OVA o ISO per l'installazione dalla <block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>pagina del sito di supporto NetApp. Il nuovo OVA contiene un certificato SSL aggiornato.</block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">Selezionare *Download Latest Release* (Scarica ultima versione) e accettare il contratto EULA.</block>
   <block id="9fd5f1f79bb7ead4a7bdb1a4e6b94825" category="list-text">Selezionare l'immagine del nodo di gestione che si desidera scaricare.</block>
   <block id="b8ccf40afa6e3a195a8f4d93c8daa17d" category="list-text">Se è stato scaricato l'OVA, attenersi alla seguente procedura:</block>
@@ -12303,4 +12302,5 @@
   <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">"HH:mm:ss"</block>
   <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">Include il nome univoco assegnato alla pianificazione, il periodo di conservazione per lo snapshot creato e l'ID del volume del volume da cui è stato creato lo snapshot. Valori validi:</block>
   <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">float o integer a seconda del tipo di operazione di sincronizzazione</block>
+  <block id="e43f2538484fde027e53efbedb634fce" category="list-text">Scaricare OVA o ISO per l'installazione dalla <block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>pagina del sito di supporto NetApp.</block>
 </blocks>
