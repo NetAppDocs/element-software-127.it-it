@@ -15,8 +15,8 @@ La sicurezza sta diventando sempre più critica per l'implementazione di soluzio
 
 * link:task_system_manage_fips_avoid_mixing_nodes_for_fips_drives.html["Evitare la combinazione di nodi per i dischi FIPS"]
 * link:task_system_manage_fips_enable_encryption_at_rest.html["Abilitare la crittografia a riposo"]
-* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives["Identificare se i nodi sono pronti per la funzionalità dei dischi FIPS"]
+* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives.html["Identificare se i nodi sono pronti per la funzionalità dei dischi FIPS"]
 * link:task_system_manage_fips_enable_the_fips_drives_feature.html["Attivare la funzione dischi FIPS"]
 * link:task_system_manage_fips_check_the_fips_drive_status.html["Controllare lo stato del disco FIPS"]
-* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature["Risolvere i problemi relativi alla funzione del disco FIPS"]
+* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature.html["Risolvere i problemi relativi alla funzione del disco FIPS"]
 

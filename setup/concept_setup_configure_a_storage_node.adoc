@@ -44,7 +44,7 @@ IMPORTANT: È necessario configurare le interfacce di gestione (Bond1G) e storag
 .Fasi
 . In una finestra del browser, inserire l'indirizzo IP DHCP di un nodo.
 +
-È necessario aggiungere l'estensione `:442` per accedere al nodo; ad esempio, https://172.25.103.6:442[].
+Devi aggiungere l'estensione  `:442` per accedere al nodo; per esempio,  `\https://172.25.103.6:442`.
 
 +
 Viene visualizzata la scheda *Network Settings* (Impostazioni di rete) con la sezione *Bond1G*.

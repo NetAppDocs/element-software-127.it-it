@@ -15,7 +15,7 @@ EKM (External Key Management) offre una gestione sicura delle chiavi di autentic
 
 * link:task_system_manage_key_set_up_external_key_management.html["Configurare la gestione esterna"]
 * link:task_system_manage_rekey_software_ear_master_key.html["Ridigita la chiave master di crittografia software a riposo"]
-* link:concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys["Ripristino di chiavi di autenticazione inaccessibili o non valide"]
+* link:concept_system_manage_key_recover_inaccessible_or_invalid_authentication_keys.html["Ripristino di chiavi di autenticazione inaccessibili o non valide"]
 * link:concept_system_manage_key_external_key_management_api_commands.html["Comandi API esterni per la gestione delle chiavi"]
 
 
