@@ -26,18 +26,21 @@ TIP: Vedere la link:../media/hseries_isi.pdf["poster"^] per una rappresentazione
 
 
 
+[[workflow-diagrams]]
 == Diagrammi del flusso di lavoro
 
 I diagrammi del flusso di lavoro forniscono una panoramica generale delle fasi di installazione. Le fasi variano leggermente a seconda del modello della serie H.
 
 
 
+[[h410s]]
 === H410S
 
 image::../media/h410s_isi_workflow.png[Flusso di lavoro di installazione di H410S]
 
 
 
+[[h610s]]
 === H610S
 
 
@@ -47,6 +50,7 @@ image::../media/h610s_isi_workflow.png[Flusso di lavoro di installazione di H610
 
 
 
+[[prepare-for-installation]]
 == Preparazione per l'installazione
 
 In preparazione dell'installazione, inventariare l'hardware spedito e contattare il supporto NetApp se alcuni degli elementi sono mancanti.
@@ -80,6 +84,7 @@ CAUTION: Durante l'installazione dell'hardware, assicurarsi di rimuovere tutto i
 
 
 
+[[install-the-rails]]
 == Montare le guide
 
 L'ordine hardware fornito include un set di guide di scorrimento. Per completare l'installazione della guida, è necessario un cacciavite. Le fasi di installazione variano leggermente per ciascun modello di nodo.
@@ -93,6 +98,7 @@ TIP: Installare l'hardware dalla parte inferiore del rack fino alla parte superi
 
 
 
+[[h410s]]
 === H410S
 
 I nodi H410S sono installati in chassis 2U a quattro nodi serie H, fornito con due set di adattatori. Se si desidera installare lo chassis in un rack con fori rotondi, utilizzare gli adattatori appropriati per un rack con fori rotondi. Le guide per i nodi H410S si adattano a un rack con una profondità compresa tra 29 e 33.5 pollici. Quando la guida è completamente contratta, è lunga 28 pollici e le sezioni anteriore e posteriore della guida sono tenute insieme da una sola vite.
@@ -115,6 +121,7 @@ image::../media/h410s_rail.gif[Installazione su guida per 2U]
 
 
 
+[[h610s]]
 === H610S
 
 Di seguito viene illustrata l'installazione delle guide per un nodo di storage H610S:
@@ -126,6 +133,7 @@ TIP: Sul modello H610S sono presenti guide di destra e di sinistra. Posizionare 
 
 
 
+[[install-and-cable-the-nodes]]
 == Installare e cablare i nodi
 
 Il nodo di storage H410S viene installato in uno chassis 2U a quattro nodi. Per H610S, installare lo chassis/nodo direttamente sulle guide nel rack.
@@ -139,6 +147,7 @@ CAUTION: Rimuovere tutto il materiale di imballaggio e l'imballaggio dall'unità
 
 
 
+[[h410s]]
 === H410S
 
 .Fasi
@@ -181,6 +190,7 @@ image::../media/hci_poweron_isg.gif[Questa figura mostra i pulsanti di accension
 
 
 
+[[h610s]]
 === H610S
 
 .Fasi
@@ -219,6 +229,7 @@ image::../media/h600s_isi_nodefront.png[Questa figura mostra la parte anteriore 
 
 
 
+[[configure-the-nodes]]
 == Configurare i nodi
 
 Dopo aver montato in rack e collegato l'hardware, è possibile configurare la nuova risorsa di storage.
@@ -244,6 +255,7 @@ TIP: Vedere https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infras
 
 
 
+[[create-a-cluster]]
 == Creare un cluster
 
 Dopo aver aggiunto il nodo di storage all'installazione e aver configurato la nuova risorsa di storage, è possibile creare un nuovo cluster di storage
@@ -255,6 +267,7 @@ Dopo aver aggiunto il nodo di storage all'installazione e aver configurato la nu
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

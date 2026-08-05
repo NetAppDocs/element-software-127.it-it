@@ -43,6 +43,7 @@ summary: 'È possibile creare uno snapshot di un volume attivo per conservare l"
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[Pianifica un'istantanea]

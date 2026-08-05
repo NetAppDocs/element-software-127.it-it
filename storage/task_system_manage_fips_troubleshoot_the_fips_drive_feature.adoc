@@ -25,6 +25,7 @@ Utilizzando l'interfaccia utente del software NetApp Element, è possibile visua
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_monitor_cluster_fault_codes.adoc[Codici di guasto del cluster]

@@ -55,6 +55,7 @@ Dopo aver completato correttamente l'associazione, si consiglia di aggiornare la
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_replication_volume_pairing_messages.adoc[Messaggi di associazione del volume]

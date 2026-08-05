@@ -23,6 +23,7 @@ Utilizzare i seguenti metodi API supportati per recuperare le informazioni stati
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

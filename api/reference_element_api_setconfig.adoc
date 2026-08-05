@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo SetConfig per impostare le informazio
 
 
 
+[[parameter]]
 == Parametro
 
 ATTENZIONE:
@@ -54,6 +55,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -76,6 +78,7 @@ Oggetto JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -98,18 +101,21 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 La risposta di questo metodo è la stessa del ritorno per il metodo GetConfig. Tutti i campi per la visualizzazione dell'oggetto e i valori aggiornati vengono visualizzati quando si utilizza SetConfig.
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]

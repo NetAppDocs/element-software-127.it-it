@@ -39,6 +39,7 @@ NOTE: Il nome utente per l'amministratore del cluster IdP deve corrispondere all
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

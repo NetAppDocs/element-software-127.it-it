@@ -19,6 +19,7 @@ Se il parametro keepResult è mancante o falso, asyncHandle diventa inattivo qua
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -54,6 +55,7 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -132,6 +134,7 @@ Stringa di dati ISO 8601
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -148,6 +151,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example-method-error]]
 == Esempio di risposta: Errore di metodo
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -167,6 +171,7 @@ Se "Response" fosse l'oggetto di risposta JSON dalla chiamata GetAsyncResult, "R
 
 
 
+[[response-example-asynchronous-task-error]]
 == Esempio di risposta: Errore di task asincrono
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -193,6 +198,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 
 
 
+[[response-example-asynchronous-task-success]]
 == Esempio di risposta: Operazione asincrona riuscita
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -218,6 +224,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

@@ -31,6 +31,7 @@ L'abilitazione di LDAP prevede le seguenti procedure di alto livello, descritte 
 
 
 
+[[complete-pre-configuration-steps-for-ldap-support]]
 == Completare la procedura di preconfigurazione per il supporto LDAP
 
 Prima di attivare il supporto LDAP in Element, è necessario configurare un server Windows Active Directory ed eseguire altre attività di preconfigurazione.
@@ -44,6 +45,7 @@ Prima di attivare il supporto LDAP in Element, è necessario configurare un serv
 
 
 
+[[enable-ldap-authentication-with-the-element-user-interface]]
 == Abilitare l'autenticazione LDAP con l'interfaccia utente Element
 
 È possibile configurare l'integrazione del sistema di storage con un server LDAP esistente. Ciò consente agli amministratori LDAP di gestire centralmente l'accesso al sistema storage per gli utenti.
@@ -94,6 +96,7 @@ Per verificare questo, disconnettersi dall'interfaccia utente di Element e acced
 
 
 
+[[enable-ldap-authentication-with-the-element-api]]
 == Abilitare l'autenticazione LDAP con l'API Element
 
 È possibile configurare l'integrazione del sistema di storage con un server LDAP esistente. Ciò consente agli amministratori LDAP di gestire centralmente l'accesso al sistema storage per gli utenti.
@@ -199,6 +202,8 @@ Per verificare questo, disconnettersi dall'interfaccia utente di Element e acced
 
 
 
+[[view-ldap-details]]
+[[view_ldap_details]]
 == Visualizza i dettagli di LDAP
 
 Visualizzare le informazioni LDAP nella pagina LDAP della scheda Cluster.
@@ -237,6 +242,7 @@ NOTE: Per visualizzare queste impostazioni di configurazione LDAP, è necessario
 
 
 
+[[test-the-ldap-configuration]]
 == Verificare la configurazione LDAP
 
 Dopo aver configurato LDAP, è necessario testarlo utilizzando l'interfaccia utente Element o il metodo API Element `TestLdapAuthentication`.
@@ -331,6 +337,7 @@ La `userSearchBaseDN` non è una posizione valida all'interno della struttura LD
 
 
 
+[[disable-ldap]]
 == Disattivare LDAP
 
 È possibile disattivare l'integrazione LDAP utilizzando l'interfaccia utente Element.
@@ -345,6 +352,7 @@ Prima di iniziare, prendere nota di tutte le impostazioni di configurazione, poi
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

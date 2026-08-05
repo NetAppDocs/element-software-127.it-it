@@ -76,6 +76,7 @@ Ecco una panoramica di alto livello dei passaggi:
 
 
 
+[[remove-the-drive-from-the-cluster]]
 == Rimuovere l'unità dal cluster
 
 Il sistema SolidFire mette un disco in uno stato di errore se l'autodiagnosi del disco indica al nodo che si è verificato un errore o se la comunicazione con il disco si interrompe per cinque minuti e mezzo o più. Il sistema visualizza un elenco dei dischi guasti. Rimuovere un disco guasto dall'elenco dei dischi guasti nel software NetApp Element.
@@ -115,6 +116,7 @@ Per rimuovere più dischi
 
 
 
+[[replace-the-drive-from-the-chassis]]
 == Sostituire l'unità dal telaio
 
 Dopo aver rimosso un disco guasto dall'elenco dei dischi guasti nell'interfaccia utente di Element, è possibile sostituire fisicamente il disco guasto dallo chassis.
@@ -158,6 +160,7 @@ Il supporto NetApp fornirà istruzioni per la restituzione del disco guasto.
 
 
 
+[[add-the-drive-to-the-cluster]]
 == Aggiungere l'unità al cluster
 
 Dopo aver installato un nuovo disco nello chassis, viene registrato come disponibile. È necessario aggiungere il disco al cluster utilizzando l'interfaccia utente Element prima che possa partecipare al cluster.
@@ -193,6 +196,7 @@ Per aggiungere più dischi
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

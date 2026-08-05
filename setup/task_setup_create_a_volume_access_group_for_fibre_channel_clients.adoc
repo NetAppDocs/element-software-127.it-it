@@ -36,6 +36,7 @@ NOTE: È possibile aggiungere o eliminare gli iniziatori in un secondo momento.
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

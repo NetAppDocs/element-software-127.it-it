@@ -30,6 +30,7 @@ keywords: netapp, initiator, storage, element, access group
 
 
 
+[[create-an-initiator]]
 == Creare un iniziatore
 
 È possibile creare iniziatori iSCSI o Fibre Channel e, facoltativamente, assegnarli alias.
@@ -81,6 +82,7 @@ Il formato accettato di un iniziatore Fibre Channel WWPN è `:Aa:bB:CC:dd:11:22:
 
 
 
+[[add-initiators-to-a-volume-access-group]]
 == Aggiungere gli iniziatori a un gruppo di accesso al volume
 
 È possibile aggiungere gli iniziatori a un gruppo di accesso al volume. Quando si aggiunge un iniziatore a un gruppo di accesso al volume, l'iniziatore consente l'accesso a tutti i volumi in tale gruppo di accesso al volume.
@@ -98,6 +100,7 @@ Il formato accettato di un iniziatore Fibre Channel WWPN è `:Aa:bB:CC:dd:11:22:
 
 
 
+[[change-an-initiator-alias]]
 == Modificare un alias iniziatore
 
 È possibile modificare l'alias di un iniziatore esistente o aggiungere un alias se non ne esiste già uno.
@@ -115,6 +118,7 @@ Il formato accettato di un iniziatore Fibre Channel WWPN è `:Aa:bB:CC:dd:11:22:
 
 
 
+[[delete-initiators]]
 == Eliminare gli iniziatori
 
 È possibile eliminare uno o più iniziatori. Quando si elimina un iniziatore, il sistema lo rimuove da qualsiasi gruppo di accesso al volume associato. Tutte le connessioni che utilizzano l'iniziatore rimangono valide fino al ripristino della connessione.

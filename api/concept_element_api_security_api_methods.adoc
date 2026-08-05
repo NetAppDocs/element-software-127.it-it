@@ -35,6 +35,7 @@ summary: È possibile integrare il software Element con servizi esterni correlat
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

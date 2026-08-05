@@ -15,6 +15,7 @@ L'oggetto rete (tutte le interfacce) raccoglie informazioni sulla configurazione
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -62,6 +63,7 @@ xref:reference_element_api_network_local_interfaces.adoc[rete (interfacce locali
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_getconfig.adoc[GetConfig]

@@ -35,6 +35,7 @@ Per informazioni su ciascun metodo, vedere link:../api/index.html["Riferimento A
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * link:../api/index.html["Gestione dello storage con l'API Element"]

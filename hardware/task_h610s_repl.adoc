@@ -21,6 +21,7 @@ TIP: I termini "nodo" e "chassis" sono utilizzati in modo intercambiabile nel ca
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == Best practice per l'aggiunta e la rimozione di dischi
 
 Attenersi alle seguenti Best practice per aggiungere dischi al cluster:
@@ -79,6 +80,7 @@ NOTE: Se lo switch non riconosce i cavi, consultare la documentazione del fornit
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

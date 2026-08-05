@@ -15,6 +15,7 @@ L'oggetto ClusterStructure contiene le informazioni di backup della configurazio
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene le informazioni di ritorno combinate dei seguenti metodi:
@@ -41,6 +42,7 @@ Questo oggetto contiene le informazioni di ritorno combinate dei seguenti metodi
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_getclusterstructure.adoc[GetClusterStructure]

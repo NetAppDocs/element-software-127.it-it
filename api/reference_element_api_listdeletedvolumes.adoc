@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo ListDeletedVolumes per recuperare l"
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -37,6 +38,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -55,6 +57,7 @@ xref:reference_element_api_volume.adoc[volume] array
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -69,6 +72,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Le risposte per questo metodo sono simili al seguente esempio:
@@ -123,6 +127,7 @@ Le risposte per questo metodo sono simili al seguente esempio:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

@@ -57,6 +57,7 @@ Prima di seguire questa procedura, è necessario conoscere e capire link:../conc
 
 
 
+[[step-1-download-iso-or-ova-and-deploy-the-vm]]
 == Passaggio 1: Scaricare ISO o OVA e distribuire la VM
 
 Scaricare l'ISO o l'OVA appropriato dal sito di supporto NetApp e installare la VM.
@@ -106,6 +107,8 @@ NOTE: L'installazione di un nodo di gestione mediante l'immagine potrebbe causar
 
 
 
+[[step-2-create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == Fase 2: Creare il nodo di gestione admin e configurare la rete
 
 Una volta completata l'installazione della VM, creare l'utente amministratore del nodo di gestione e configurare la rete del nodo di gestione.
@@ -137,6 +140,7 @@ NOTE: Se è necessaria una scheda NIC aggiuntiva per isolare il traffico di stor
 
 
 
+[[step-3-configure-time-sync]]
 == Passaggio 3: Configurare la sincronizzazione dell'ora
 
 Prima di configurare il nodo di gestione, sincronizzare l'ora tra il nodo di gestione e il cluster di storage.
@@ -158,7 +162,7 @@ sudo service ntpd stop
 . Modificare il file di configurazione NTP `/etc/ntp.conf` :
 +
 .. Commentare i server predefiniti (`server 0.gentoo.pool.ntp.org`) aggiungendo un `#` davanti a ciascuno di essi.
-.. Aggiungere una nuova riga per ogni server di riferimento orario predefinito che si desidera aggiungere. I server di riferimento orario predefiniti devono essere gli stessi server NTP utilizzati nel cluster di archiviazione che verranno utilizzati in un link:task_mnode_install.html#set-up-the-management-node["passo successivo"].
+.. Aggiungi una nuova riga per ogni server orario predefinito che desideri aggiungere. I server orari predefiniti devono essere gli stessi server NTP utilizzati sul cluster di storage che utilizzerai in un <<set-up-the-management-node,passo successivo>>.
 +
 [listing]
 ----
@@ -213,10 +217,11 @@ NOTE: Non attivare questa opzione se si apportano modifiche future alla macchina
 
 
 
-NOTE: Non modificare l'NTP dopo aver completato la configurazione della sincronizzazione dell'ora perché influisce sull'NTP quando si esegue sul link:task_mnode_install.html#set-up-the-management-node["comando di installazione"]nodo di gestione.
+NOTE: Non modificare l'NTP dopo aver completato la configurazione della sincronizzazione dell'ora perché influisce sull'NTP quando si esegue sul <<step_6_recover_mnode_redeploy,comando di ridistribuzione>>nodo di gestione.
 
 
 
+[[step-4-set-up-the-management-node]]
 == Fase 4: Impostare il nodo di gestione
 
 Configurare il nodo di gestione utilizzando il `setup-mnode` comando.
@@ -240,7 +245,7 @@ NOTE: La forma abbreviata del nome del comando è tra parentesi ( ) e può esser
 
 +
 *** *--mnode_admin_user (-mu) [nome utente]*: Il nome utente per l'account amministratore del nodo di gestione. Probabilmente si tratta del nome utente dell'account utente utilizzato per accedere al nodo di gestione.
-*** *--storage_mvip (-SM) [indirizzo MVIP]*: L'indirizzo IP virtuale di gestione (MVIP) del cluster di storage che esegue il software Element. Configurare il nodo di gestione con lo stesso cluster di archiviazione utilizzato durante link:task_mnode_install.html#configure-time-sync["Configurazione dei server NTP"].
+*** *--storage_mvip (-sm) [indirizzo MVIP]*: L'indirizzo IP virtuale di gestione (MVIP) del cluster di storage su cui è in esecuzione il software Element. Configura il nodo di gestione con lo stesso cluster di storage che hai utilizzato durante link:task_mnode_recover.html#configure-time-sync["Configurazione dei server NTP"].
 *** *--storage_username (-su) [username]*: Il nome utente dell'amministratore del cluster di archiviazione per il cluster specificato dal `--storage_mvip` parametro.
 *** *--Telemetry_Active (-t) [true]*: Conserva il valore true che consente la raccolta dei dati per l'analisi di Active IQ.
 
@@ -283,6 +288,7 @@ NOTE: Utilizzare un nome account univoco per i volumi persistenti diverso da qua
 
 
 
+[[step-5-configure-controller-assets]]
 == Passaggio 5: Configurare le risorse dei controller
 
 Individuare l'ID di installazione e aggiungere una risorsa per il controller vCenter.
@@ -345,6 +351,7 @@ NOTE: È necessario creare un nuovo ruolo NetApp HCC in vCenter per aggiungere u
 
 
 
+[[find-more-information]]
 == Ulteriori informazioni
 
 * link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes["Volumi persistenti"]

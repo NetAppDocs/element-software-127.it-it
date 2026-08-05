@@ -23,6 +23,7 @@ summary: 'È possibile migliorare l"interfaccia utente Web del software Element 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

@@ -32,6 +32,7 @@ NOTE: A partire dalla versione 11.0 di Element, i nodi possono essere configurat
 
 
 
+[[authoritative-storage-clusters]]
 == Cluster di storage autorevoli
 
 Il cluster di storage autorevole è il cluster di storage utilizzato da NetApp Hybrid Cloud Control per autenticare gli utenti.
@@ -46,18 +47,21 @@ Per ulteriori informazioni sull'utilizzo delle risorse cluster di storage del no
 
 
 
+[[rule-of-thirds]]
 == Regola dei terzi
 
 Quando si mischiano tipi di nodi di storage in un cluster di storage NetApp SolidFire, nessun singolo nodo di storage può contenere oltre il 33% della capacità totale del cluster di storage.
 
 
 
+[[stranded-capacity]]
 == Capacità inutilizzata
 
 Se un nodo aggiunto di recente rappresenta oltre il 50% della capacità totale del cluster, una parte della capacità di questo nodo viene resa inutilizzabile ("bloccato"), in modo che sia conforme alla regola di capacità. Questo rimane il caso fino a quando non viene aggiunta una maggiore capacità di storage. Se viene aggiunto un nodo molto grande che disobbedisce anche alla regola di capacità, il nodo precedentemente bloccato non verrà più bloccato, mentre il nodo appena aggiunto viene bloccato. La capacità deve essere sempre aggiunta in coppie per evitare che ciò accada. Quando un nodo viene bloccato, viene generato un guasto appropriato del cluster.
 
 
 
+[[storage-efficiency]]
 == Efficienza dello storage
 
 I cluster di storage NetApp SolidFire utilizzano deduplica, compressione e thin provisioning per ridurre la quantità di storage fisico necessaria per l'archiviazione di un volume.
@@ -78,6 +82,7 @@ Un volume con thin provisioning o LUN è un volume per il quale lo storage non �
 
 
 
+[[storage-cluster-quorum]]
 == Quorum del cluster di storage
 
 Element Software crea un cluster di storage da nodi selezionati, che mantiene un database replicato della configurazione del cluster. Per poter mantenere il quorum per la resilienza del cluster, sono necessari almeno tre nodi per partecipare all'ensemble del cluster.

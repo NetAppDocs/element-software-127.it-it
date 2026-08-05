@@ -30,6 +30,7 @@ L'interfaccia software si basa sull'API Element.
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

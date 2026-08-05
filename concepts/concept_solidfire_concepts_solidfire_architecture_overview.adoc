@@ -42,6 +42,7 @@ image::../media/solidfire_concepts_guide_architecture_image.gif[Diagramma dell'a
 
 
 
+[[common-urls]]
 == URL comuni
 
 Di seguito sono riportati gli URL comuni utilizzati con un sistema di storage all-flash SolidFire:
@@ -70,6 +71,7 @@ Di seguito sono riportati gli URL comuni utilizzati con un sistema di storage al
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

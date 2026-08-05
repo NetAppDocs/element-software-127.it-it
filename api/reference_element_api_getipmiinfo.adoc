@@ -15,12 +15,14 @@ summary: 'È possibile utilizzare il metodo GetIpmiInfo per visualizzare un repo
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -39,6 +41,7 @@ Array di oggetti JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -53,6 +56,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 A causa della lunghezza della risposta restituita per questo metodo API, parti della risposta sono state intenzionalmente eliminate da questo documento. Sono incluse le parti delle informazioni hardware monitorate dal sistema per garantire che il nodo funzioni con performance ottimali.
@@ -187,6 +191,7 @@ A causa della lunghezza della risposta restituita per questo metodo API, parti d
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

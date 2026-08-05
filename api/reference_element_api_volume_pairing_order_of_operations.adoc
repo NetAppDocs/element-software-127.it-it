@@ -29,6 +29,7 @@ Solo uno dei volumi accoppiati può essere identificato come volume di destinazi
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]

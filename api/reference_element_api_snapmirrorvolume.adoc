@@ -15,6 +15,7 @@ L'oggetto SnapMirrorVolume contiene informazioni su un volume ONTAP.
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

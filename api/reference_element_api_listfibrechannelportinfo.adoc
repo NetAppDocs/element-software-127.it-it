@@ -17,6 +17,7 @@ Questo metodo API è destinato all'utilizzo su singoli nodi; sono richiesti un I
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -39,6 +40,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -59,6 +61,7 @@ xref:reference_element_api_fibrechannelport.adoc[FiberChannelPort] array
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -73,6 +76,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -205,6 +209,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

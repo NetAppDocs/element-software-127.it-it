@@ -15,6 +15,7 @@ L'interfaccia utente Web di Element utilizza `DeleteSnapMirrorEndpoints` per eli
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -37,12 +38,14 @@ Sì
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo non ha valori restituiti.
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,0

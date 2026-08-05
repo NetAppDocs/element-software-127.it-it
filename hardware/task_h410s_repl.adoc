@@ -39,6 +39,7 @@ Ecco una panoramica di alto livello dei passaggi:
 
 
 
+[[prepare-to-replace-the-node]]
 == Prepararsi a sostituire il nodo
 
 Prima di installare il nodo sostitutivo, è necessario rimuovere correttamente il nodo di storage guasto dal cluster nell'interfaccia utente del software NetApp Element. È possibile eseguire questa operazione senza causare alcuna interruzione del servizio. Il numero di serie del nodo di storage guasto deve essere ottenuto dall'interfaccia utente dell'elemento e deve corrispondere al numero di serie riportato sull'etichetta sul retro del nodo.
@@ -81,6 +82,7 @@ Per rimuovere più dischi
 
 
 
+[[replace-the-node-in-the-chassis]]
 == Sostituire il nodo nel telaio
 
 Dopo aver rimosso il nodo difettoso dal cluster utilizzando l'interfaccia utente del software NetApp Element, è possibile rimuovere fisicamente il nodo dallo chassis. Installare il nodo sostitutivo nello stesso slot dello chassis da cui è stato rimosso il nodo guasto.
@@ -203,6 +205,7 @@ TIP: Assicurarsi che il nodo sostitutivo sia cablato nello stesso modo degli alt
 
 
 
+[[add-the-node-to-the-cluster]]
 == Aggiungere il nodo al cluster
 
 Quando si aggiunge un nodo al cluster o si installano nuove unità in un nodo esistente, le unità vengono automaticamente registrate come disponibili. È necessario aggiungere le unità al cluster utilizzando l'interfaccia utente Element o l'API prima che possano partecipare al cluster.
@@ -238,6 +241,7 @@ Il nodo viene visualizzato nell'elenco dei nodi attivi.
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

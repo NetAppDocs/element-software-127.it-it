@@ -17,12 +17,14 @@ Prima di rimuovere un nodo, è necessario rimuovere tutte le unità contenute ne
 
 
 
+[[cluster-master-node-removal]]
 == Rimozione del nodo master del cluster
 
 Se si utilizza `RemoveNodes` per rimuovere il nodo master del cluster, il metodo potrebbe scadere prima di restituire una risposta. Se la chiamata al metodo non riesce a rimuovere il nodo, eseguire nuovamente la chiamata al metodo. Si noti che se si rimuove il nodo master del cluster insieme ad altri nodi, è necessario utilizzare una chiamata separata per rimuovere il nodo master del cluster da solo.
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -60,12 +62,14 @@ Sì
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo non ha alcun valore restituito.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -82,6 +86,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -95,6 +100,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

@@ -15,6 +15,7 @@ L'oggetto snapMirrorClusterIdentity contiene informazioni di identificazione sul
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

@@ -23,6 +23,7 @@ keywords: netapp, mnode, management node, rest api, Element
 
 
 
+[[access-the-management-services-rest-api]]
 == Accedere all'API REST dei servizi di gestione
 
 .Fasi
@@ -44,6 +45,7 @@ https://<ManagementNodeIP>/vcenter/1/
 
 
 
+[[view-stored-information-about-existing-controllers]]
 == Visualizzare le informazioni memorizzate sui controller esistenti
 
 È possibile elencare i controller vCenter esistenti registrati con il nodo di gestione e visualizzare le informazioni memorizzate utilizzando l'API REST.
@@ -60,6 +62,7 @@ L'API restituisce un elenco di tutti i controller vCenter conosciuti, insieme al
 
 
 
+[[view-the-status-of-an-existing-controller]]
 == Visualizzare lo stato di un controller esistente
 
 È possibile visualizzare lo stato di uno dei controller vCenter esistenti registrati con il nodo di gestione. L'API restituisce uno stato che indica se NetApp Hybrid Cloud Control è in grado di connettersi al controller vCenter e il motivo di tale stato.
@@ -76,6 +79,7 @@ L'API restituisce uno stato di questo particolare controller vCenter, insieme a 
 
 
 
+[[edit-the-stored-properties-of-a-controller]]
 == Modificare le proprietà memorizzate di un controller
 
 È possibile modificare il nome utente o la password memorizzati per qualsiasi controller vCenter esistente registrato con il nodo di gestione. Non è possibile modificare l'indirizzo IP memorizzato di un controller vCenter esistente.

@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo RekeySoftwareEncryptionAtRestMasterK
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input. Se il `keyManagementType` parametro non è specificato, l'operazione di rekey viene eseguita utilizzando la configurazione di gestione delle chiavi esistente. Se `keyManagementType` viene specificato e il provider della chiave è esterno, `keyProviderID` è necessario utilizzare anche il parametro.
@@ -33,6 +34,7 @@ Questo metodo ha i seguenti parametri di input. Se il `keyManagementType` parame
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -46,6 +48,7 @@ Questo metodo ha i seguenti valori restituiti:
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -62,6 +65,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -74,6 +78,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 12,3

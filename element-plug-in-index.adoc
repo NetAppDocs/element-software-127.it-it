@@ -18,6 +18,7 @@ Per ulteriori informazioni su Element Plug-in per vCenter Server, vedere https:/
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

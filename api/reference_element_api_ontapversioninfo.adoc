@@ -15,6 +15,7 @@ L'oggetto ontapVersionInfo contiene informazioni sulla versione API del cluster 
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

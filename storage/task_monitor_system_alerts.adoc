@@ -99,6 +99,7 @@ Dopo che il sistema ha risolto un avviso, tutte le informazioni relative all'avv
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_monitor_cluster_fault_codes.adoc[Codici di guasto del cluster]

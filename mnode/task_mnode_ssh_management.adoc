@@ -43,6 +43,7 @@ A partire da Management Services 2.20.69, è possibile attivare e disattivare la
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-netapp-hybrid-cloud-control-ui]]
 == Disattivare o attivare la funzionalità SSH sul nodo di gestione utilizzando l'interfaccia utente di NetApp Hybrid Cloud Control
 
 È possibile disattivare o riattivare la funzionalità SSH sul nodo di gestione. La capacità SSH che fornisce link:task_mnode_enable_remote_support_connections.html["Accesso alla sessione del NetApp Support Remote Support Tunnel (RST)"] è disattivata per impostazione predefinita nei nodi di gestione che eseguono servizi di gestione 2,18 o successivi. La disattivazione di SSH non interrompe o disconnette le sessioni client SSH esistenti al nodo di gestione. Se si disattiva SSH e si sceglie di riattivarlo in un secondo momento, è possibile farlo utilizzando l'interfaccia utente di NetApp Hybrid Cloud Control.
@@ -58,6 +59,7 @@ NOTE: Per abilitare o disabilitare l'accesso al supporto utilizzando SSH per un 
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-apis]]
 == Disattivare o attivare la funzionalità SSH sul nodo di gestione utilizzando le API
 
 È possibile disattivare o riattivare la funzionalità SSH sul nodo di gestione. La capacità SSH che fornisce link:task_mnode_enable_remote_support_connections.html["Accesso alla sessione del NetApp Support Remote Support Tunnel (RST)"] è disattivata per impostazione predefinita nei nodi di gestione che eseguono servizi di gestione 2,18 o successivi. La disattivazione di SSH non interrompe o disconnette le sessioni client SSH esistenti al nodo di gestione. Se si disattiva SSH e si sceglie di riattivarlo in un secondo momento, è possibile utilizzare la stessa API.
@@ -104,6 +106,7 @@ https://<ManagementNodeIP>/mnode/
 
 
 
+[[determine-status-of-the-ssh-capability-on-the-management-node-using-apis]]
 == Determinare lo stato della funzionalità SSH sul nodo di gestione utilizzando le API
 
 È possibile determinare se la funzionalità SSH è attivata sul nodo di gestione utilizzando un'API di servizio del nodo di gestione. SSH è disattivato per impostazione predefinita sui nodi di gestione che eseguono i servizi di gestione 2.18 o versioni successive.

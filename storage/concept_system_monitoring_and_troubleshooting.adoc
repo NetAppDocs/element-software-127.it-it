@@ -29,6 +29,7 @@ summary: È necessario monitorare il sistema a scopo diagnostico e ottenere info
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

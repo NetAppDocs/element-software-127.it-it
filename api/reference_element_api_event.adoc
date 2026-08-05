@@ -15,6 +15,7 @@ L'oggetto Event contiene dettagli sugli eventi che si verificano durante una chi
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -125,6 +126,7 @@ Stringa di dati ISO 8601
 
 
 
+[[event-types]]
 == Tipi di evento
 
 L'elenco seguente descrive i possibili tipi di evento che il membro eventInfoType può contenere:
@@ -163,6 +165,7 @@ L'elenco seguente descrive i possibili tipi di evento che il membro eventInfoTyp
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listevents.adoc[ListEvents]

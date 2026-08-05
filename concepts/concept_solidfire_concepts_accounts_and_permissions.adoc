@@ -22,6 +22,7 @@ Utilizzando lo storage Element, è possibile creare e gestire i seguenti tipi di
 
 
 
+[[storage-cluster-administrator-accounts]]
 == Account amministratore del cluster di storage
 
 Esistono due tipi di account amministratore in un cluster di storage che esegue il software NetApp Element:
@@ -37,6 +38,7 @@ NOTE: Per accedere ai nodi attivi di un cluster tramite l'interfaccia utente per
 
 
 
+[[user-accounts]]
 == Account utente
 
 Gli account utente vengono utilizzati per controllare l'accesso alle risorse di storage su una rete basata su software NetApp Element. È necessario almeno un account utente prima di poter creare un volume.
@@ -52,6 +54,7 @@ Di seguito sono riportate alcune considerazioni aggiuntive:
 
 
 
+[[authoritative-cluster-user-accounts]]
 == Account utente del cluster autorevoli
 
 Gli account utente del cluster autorevoli possono eseguire l'autenticazione con qualsiasi risorsa di storage associata all'istanza di NetApp Hybrid Cloud Control di nodi e cluster. Con questo account, puoi gestire volumi, account, gruppi di accesso e molto altro in tutti i cluster.
@@ -70,6 +73,7 @@ Sebbene molte funzionalità di NetApp Hybrid Cloud Control funzionino con più c
 
 
 
+[[volume-accounts]]
 == Account di volume
 
 Gli account specifici del volume sono specifici solo per il cluster di storage in cui sono stati creati. Questi account consentono di impostare autorizzazioni su volumi specifici della rete, ma non hanno alcun effetto al di fuori di tali volumi.

@@ -17,6 +17,7 @@ summary: È possibile utilizzare DeleteGroupSnapshot per eliminare uno snapshot 
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -56,12 +57,14 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo non ha alcun valore restituito.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -79,6 +82,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -92,6 +96,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

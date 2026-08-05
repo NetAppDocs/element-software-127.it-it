@@ -15,12 +15,14 @@ summary: 'È possibile utilizzare il metodo ListActiveNodes per restituire l"ele
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -39,6 +41,7 @@ xref:reference_element_api_node.adoc[nodo] array
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -53,18 +56,21 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 A causa della lunghezza di questo esempio di risposta, è documentata in un argomento supplementare.
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_response_example_listactivenodes.adoc[ListActiveNode]

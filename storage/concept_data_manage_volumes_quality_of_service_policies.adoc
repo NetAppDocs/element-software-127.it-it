@@ -27,6 +27,7 @@ Vedere link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service
 
 
 
+[[create-a-qos-policy]]
 == Creare una policy QoS
 
 È possibile creare policy QoS e applicarle durante la creazione di volumi.
@@ -40,6 +41,7 @@ Vedere link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service
 
 
 
+[[edit-a-qos-policy]]
 == Modificare un criterio QoS
 
 È possibile modificare il nome di un criterio QoS esistente o i valori associati al criterio. La modifica di un criterio QoS influisce su tutti i volumi associati al criterio.
@@ -60,6 +62,7 @@ Vedere link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service
 
 
 
+[[delete-a-qos-policy]]
 == Eliminare una policy QoS
 
 È possibile eliminare una policy QoS se non è più necessaria. Quando si elimina un criterio QoS, tutti i volumi associati al criterio mantengono le impostazioni QoS ma non vengono associati a un criterio.
@@ -75,6 +78,7 @@ NOTE: Se invece si tenta di disassociare un volume da un criterio QoS, è possib
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * link:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.html["Rimuovere l'associazione dei criteri QoS di un volume"]

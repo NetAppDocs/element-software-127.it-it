@@ -29,6 +29,7 @@ I metodi API di replica consentono di collegare due cluster per la protezione co
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

@@ -15,6 +15,7 @@ L'oggetto ProtectionDomainLevel contiene informazioni sugli attuali livelli di t
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

@@ -24,6 +24,7 @@ La crittografia a riposo deve essere attivata sul cluster e tutti i nodi e le un
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * link:../api/index.html["Gestire lo storage con l'API Element"]

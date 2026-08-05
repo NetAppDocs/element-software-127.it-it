@@ -23,6 +23,7 @@ keywords: netapp, management node ui, mnode ui, network settings, test network, 
 
 
 
+[[update-management-node-network-settings]]
 == Aggiornare le impostazioni di rete del nodo di gestione
 
 Nella scheda Network Settings (Impostazioni di rete) dell'interfaccia utente del nodo di gestione per nodo, è possibile modificare i campi dell'interfaccia di rete del nodo di gestione.
@@ -66,6 +67,7 @@ IMPORTANT: Le opzioni IPv6 non sono supportate per la versione 11.3 o successive
 
 
 
+[[update-management-node-cluster-settings]]
 == Aggiornare le impostazioni del cluster del nodo di gestione
 
 Nella scheda Cluster Settings (Impostazioni cluster) dell'interfaccia utente per nodo per il nodo di gestione, è possibile modificare i campi dell'interfaccia cluster quando un nodo si trova negli stati Available (disponibile), PendingActive (PendingActive) e Active (attivo).
@@ -83,6 +85,7 @@ Nella scheda Cluster Settings (Impostazioni cluster) dell'interfaccia utente per
 
 
 
+[[test-the-management-node-settings]]
 == Verificare le impostazioni del nodo di gestione
 
 Dopo aver modificato le impostazioni di gestione e di rete per il nodo di gestione e aver eseguito le modifiche, è possibile eseguire test per convalidare le modifiche apportate.

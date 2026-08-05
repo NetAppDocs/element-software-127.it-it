@@ -36,6 +36,7 @@ NOTE: Contattare il supporto NetApp prima di utilizzare una delle seguenti opzio
 |===
 
 
+[[upload-logs]]
 == Caricare i registri
 
 Raccogliere tutti i registri sul sistema e caricarli su un URL specificato in base alla procedura seguente.
@@ -59,6 +60,7 @@ Il file di registro viene caricato e salvato nella directory specificata come `.
 
 
 
+[[use-the-support-tunnel]]
 == Utilizzare il tunnel di supporto
 
 Se hai bisogno di supporto tecnico per il tuo sistema NetApp HCI o per il sistema storage all-flash SolidFire, il supporto NetApp può connetterti in remoto con il tuo sistema. Per avviare una sessione e ottenere l'accesso remoto, il supporto NetApp può aprire una connessione Secure Shell (SSH) inversa al proprio ambiente.
@@ -100,6 +102,7 @@ NOTE: SSH rimane attivato sul nodo di gestione se non viene disattivato. La conf
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

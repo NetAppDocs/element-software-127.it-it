@@ -28,6 +28,7 @@ Utilizzando la modalità di trasmissione, è possibile impostare ciascun nodo di
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

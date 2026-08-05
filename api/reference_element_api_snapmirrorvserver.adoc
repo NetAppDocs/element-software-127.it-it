@@ -15,6 +15,7 @@ L'oggetto snapMirrorVserver contiene informazioni sulle macchine virtuali di sto
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

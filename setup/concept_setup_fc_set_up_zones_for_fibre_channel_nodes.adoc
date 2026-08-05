@@ -17,6 +17,7 @@ Le WWPN vengono registrate nel sistema quando si crea un nuovo cluster con nodi.
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

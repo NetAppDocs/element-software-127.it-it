@@ -23,6 +23,7 @@ summary: 'È possibile associare un cluster di origine e di destinazione utilizz
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[Associare i cluster utilizzando MVIP]

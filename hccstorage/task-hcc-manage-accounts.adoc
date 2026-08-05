@@ -24,6 +24,7 @@ Gestire i seguenti tipi di account:
 
 
 
+[[enable-ldap]]
 == Attiva LDAP
 
 Per utilizzare LDAP per qualsiasi account utente, è necessario prima attivare LDAP.
@@ -40,12 +41,14 @@ Per utilizzare LDAP per qualsiasi account utente, è necessario prima attivare L
 
 
 
+[[manage-authoritative-cluster-accounts]]
 == Gestire gli account cluster autorevoli
 
 link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#authoritative-cluster-user-accounts["Account utente autorevoli"] Sono gestiti dall'opzione di gestione utenti del menu in alto a destra nel controllo cloud ibrido NetApp. Questi tipi di account consentono di eseguire l'autenticazione con qualsiasi risorsa di storage associata a un'istanza di nodi e cluster di NetApp Hybrid Cloud Control. Con questo account, puoi gestire volumi, account, gruppi di accesso e molto altro in tutti i cluster.
 
 
 
+[[create-an-authoritative-cluster-account]]
 === Creare un account cluster autorevole
 
 Puoi creare un account utilizzando NetApp Hybrid Cloud Control.
@@ -82,6 +85,7 @@ TIP: Per garantire che tutti i figli di un gruppo ereditino le autorizzazioni, c
 
 
 
+[[edit-an-authoritative-cluster-account]]
 === Modificare un account cluster autorevole
 
 È possibile modificare le autorizzazioni o la password di un account utente utilizzando NetApp Hybrid Cloud Control.
@@ -106,6 +110,7 @@ NOTE: L'aggiornamento dell'inventario potrebbe richiedere fino a 2 minuti dall'i
 
 
 
+[[delete-an-authoritative-user-account]]
 === Eliminare un account utente autorevole
 
 È possibile eliminare uno o più account quando non sono più necessari. È possibile eliminare un account utente LDAP.
@@ -121,6 +126,7 @@ Non è possibile eliminare l'account utente amministratore principale per il clu
 
 
 
+[[manage-volume-accounts]]
 == Gestire gli account dei volumi
 
 link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#volume-accounts["Account di volume"] Sono gestiti all'interno della tabella NetApp Hybrid Cloud Control Volumes. Questi account sono specifici solo per il cluster di storage in cui sono stati creati. Questi tipi di account consentono di impostare le autorizzazioni sui volumi in rete, ma non hanno alcun effetto al di fuori di tali volumi.
@@ -129,6 +135,7 @@ Un account volume contiene l'autenticazione CHAP richiesta per accedere ai volum
 
 
 
+[[create-a-volume-account]]
 === Creare un account volume
 
 Creare un account specifico per questo volume.
@@ -154,6 +161,7 @@ NOTE: Per generare automaticamente una password, lasciare vuoti i campi delle cr
 
 
 
+[[edit-a-volume-account]]
 === Modificare un account volume
 
 È possibile modificare le informazioni CHAP e modificare se un account è attivo o bloccato.
@@ -172,6 +180,7 @@ IMPORTANT: L'eliminazione o il blocco di un account associato al nodo di gestion
 
 
 
+[[delete-a-volume-account]]
 === Eliminare un account volume
 
 Eliminare un account non più necessario.

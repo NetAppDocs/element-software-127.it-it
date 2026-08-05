@@ -21,18 +21,21 @@ NOTE: Non è possibile utilizzare questo metodo per disattivare la crittografia 
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo non ha parametri di input.
 
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo non ha valori restituiti.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -47,6 +50,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -60,6 +64,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
@@ -67,7 +72,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 [discrete]
 == Trova ulteriori informazioni
 
-* link:api/reference_element_api_getclusterinfo.html["GetClusterInfo"]
+* link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"]
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html["Documentazione per le versioni precedenti dei prodotti SolidFire ed Element di NetApp"^]
 

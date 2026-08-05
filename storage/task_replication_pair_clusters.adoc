@@ -28,6 +28,7 @@ NOTE: L'associazione dei cluster richiede una connettività completa tra i nodi 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_prereq_network_port_requirements.adoc[Requisiti delle porte di rete]

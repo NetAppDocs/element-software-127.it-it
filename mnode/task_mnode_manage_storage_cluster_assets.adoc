@@ -32,6 +32,7 @@ Scegliere una delle seguenti opzioni:
 
 
 
+[[retrieve-the-installation-id-and-cluster-id-of-a-storage-cluster-asset]]
 == Recuperare l'ID di installazione e l'ID del cluster di una risorsa del cluster di storage
 
 È possibile utilizzare L'API REST per ottenere l'ID di installazione e l'ID del cluster di storage. Per aggiungere una nuova risorsa del cluster di storage è necessario l'ID dell'installazione e l'ID del cluster per modificare o eliminare una risorsa specifica del cluster di storage.
@@ -98,6 +99,7 @@ L'API restituisce un elenco di tutti i cluster di storage noti in questa install
 
 
 
+[[add-a-new-storage-cluster-asset]]
 == Aggiungere una nuova risorsa di cluster di storage
 
 È possibile utilizzare l'API REST per aggiungere una o più nuove risorse del cluster di storage all'inventario dei nodi di gestione. Quando si aggiunge una nuova risorsa del cluster di storage, questa viene automaticamente registrata con il nodo di gestione.
@@ -163,6 +165,7 @@ L'API restituisce un oggetto contenente informazioni sulla risorsa del cluster d
 
 
 
+[[edit-the-stored-credentials-for-a-storage-cluster-asset]]
 == Modificare le credenziali memorizzate per una risorsa del cluster di storage
 
 È possibile modificare le credenziali memorizzate che il nodo di gestione utilizza per accedere a un cluster di storage. L'utente scelto deve disporre dell'accesso di amministratore del cluster.
@@ -212,6 +215,7 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
+[[delete-a-storage-cluster-asset]]
 == Eliminare una risorsa del cluster di storage
 
 Se il cluster di storage non è più in servizio, è possibile eliminare una risorsa del cluster di storage. Quando si rimuove una risorsa del cluster di storage, questa viene automaticamente annullata dalla registrazione dal nodo di gestione.

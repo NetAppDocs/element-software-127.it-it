@@ -20,6 +20,7 @@ NOTE: È possibile creare snapshot se la completezza del cluster è nella fase 1
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -242,6 +243,7 @@ Sì (se si pianificano i giorni della settimana)
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -271,6 +273,7 @@ xref:reference_element_api_schedule.adoc[pianificazione]
 |===
 
 
+[[request-example-1]]
 == Esempio di richiesta 1
 
 Il seguente programma di esempio presenta i seguenti parametri:
@@ -319,6 +322,7 @@ Il seguente programma di esempio presenta i seguenti parametri:
 ----
 
 
+[[response-example-1]]
 == Esempio di risposta 1
 
 La richiesta precedente restituisce una risposta simile all'esempio seguente:
@@ -367,6 +371,7 @@ La richiesta precedente restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[request-example-2]]
 == Esempio di richiesta 2
 
 Il seguente programma di esempio presenta i seguenti parametri:
@@ -409,6 +414,7 @@ Il seguente programma di esempio presenta i seguenti parametri:
 ----
 
 
+[[response-example-2]]
 == Esempio di risposta 2
 
 La richiesta precedente restituisce una risposta simile all'esempio seguente:
@@ -452,6 +458,7 @@ La richiesta precedente restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[request-example-3]]
 == Esempio di richiesta 3
 
 Il seguente programma di esempio presenta i seguenti parametri:
@@ -489,6 +496,7 @@ Il seguente programma di esempio presenta i seguenti parametri:
 ----
 
 
+[[response-example-3]]
 == Esempio di risposta 3
 
 La richiesta precedente restituisce una risposta simile all'esempio seguente:
@@ -534,6 +542,7 @@ La richiesta precedente restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

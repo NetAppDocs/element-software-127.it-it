@@ -15,12 +15,14 @@ summary: È possibile utilizzare il metodo GetClusterStructure per eseguire il b
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo non ha alcun parametro di input.
 
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -39,6 +41,7 @@ xref:reference_element_api_clusterstructure.adoc[Struttura del clusterStructure]
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -53,6 +56,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -66,6 +70,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,3

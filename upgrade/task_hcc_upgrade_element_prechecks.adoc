@@ -52,6 +52,7 @@ Per ulteriori informazioni sui controlli dello stato dello storage eseguiti dal 
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Utilizza NetApp Hybrid Cloud Control per eseguire i controlli dello stato dello storage Element prima di aggiornare lo storage
 
 Utilizzando NetApp Hybrid Cloud Control, è possibile verificare che un cluster di storage sia pronto per l'aggiornamento.
@@ -81,6 +82,7 @@ Una volta completato il controllo dello stato di salute senza errori, il cluster
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == Utilizzare l'API per eseguire i controlli dello stato dello storage Element prima di aggiornare lo storage
 
 È possibile utilizzare REST API per verificare che un cluster di storage sia pronto per l'aggiornamento. Il controllo dello stato di salute verifica che non vi siano ostacoli all'aggiornamento, ad esempio nodi in sospeso, problemi di spazio su disco e guasti del cluster.
@@ -212,6 +214,7 @@ Se tutti i controlli di integrità hanno esito positivo, il reso è simile al se
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == Controlli dello stato dello storage eseguiti dal servizio
 
 I controlli dello stato dello storage effettuano i seguenti controlli per cluster.

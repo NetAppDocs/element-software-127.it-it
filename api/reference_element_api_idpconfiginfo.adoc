@@ -15,6 +15,7 @@ L'oggetto idpConfigInfo contiene dettagli di configurazione e integrazione relat
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

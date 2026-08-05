@@ -19,6 +19,7 @@ I seguenti scenari delineano possibili scenari di guasto e forniscono consigli d
 
 
 
+[[system-slice-drive-fails]]
 == Errore del disco slice del sistema
 
 * In questo scenario, lo slot 2 viene verificato e riportato a uno stato disponibile.
@@ -31,6 +32,7 @@ NOTE: Non è possibile aggiungere l'unità nello slot 2 da sola come unità di m
 
 
 
+[[slot-2-fails]]
 == Lo slot 2 non funziona
 
 * In questo scenario, il disco slice del sistema viene verificato e riportato a uno stato disponibile.
@@ -39,6 +41,7 @@ NOTE: Non è possibile aggiungere l'unità nello slot 2 da sola come unità di m
 
 
 
+[[system-slice-drive-and-slot-2-fails]]
 == Errore del disco slice di sistema e dello slot 2
 
 * È necessario sostituire sia l'unità slice di sistema che lo slot 2 con un disco libero. Quando entrambi i dischi diventano disponibili, aggiungere contemporaneamente l'unità slice di sistema e l'unità slot 2.
@@ -46,6 +49,7 @@ NOTE: Non è possibile aggiungere l'unità nello slot 2 da sola come unità di m
 
 
 
+[[order-of-operations]]
 == Ordine delle operazioni
 
 * Sostituire il disco hardware guasto con un disco libero (sostituire entrambi i dischi se sono guasti).
@@ -54,6 +58,7 @@ NOTE: Non è possibile aggiungere l'unità nello slot 2 da sola come unità di m
 
 
 
+[[verify-operations]]
 == Verificare le operazioni
 
 * Verificare che i dischi nello slot 0 (o interno) e nello slot 2 siano identificati come dischi metadati nell'elenco Active Drives (dischi attivi).
@@ -62,6 +67,7 @@ NOTE: Non è possibile aggiungere l'unità nello slot 2 da sola come unità di m
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 xref:task_troubleshoot_add_mdss_drives.adoc[Aggiungere dischi MDSS]

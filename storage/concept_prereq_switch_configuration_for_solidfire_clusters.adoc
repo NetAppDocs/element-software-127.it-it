@@ -68,6 +68,7 @@ Alcuni nodi offrono funzionalità di gestione out-of-band aggiuntive tramite una
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/hci/docs/hci_prereqs_network_switch.html["Requisiti di rete e switch NetApp HCI"^]

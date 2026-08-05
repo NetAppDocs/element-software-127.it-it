@@ -24,6 +24,7 @@ summary: 'È possibile modificare il livello con cui il sistema genera un avviso
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element["Come vengono calcolate le soglie blockSpace per l'elemento"^]

@@ -15,6 +15,7 @@ Ogni nodo contiene uno o più dischi fisici utilizzati per memorizzare una parte
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

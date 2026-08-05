@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo TestPing per testare la connettivit�
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha il seguente parametro di input:
@@ -158,6 +159,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -178,6 +180,7 @@ Oggetto JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -195,6 +198,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -240,6 +244,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 5,0

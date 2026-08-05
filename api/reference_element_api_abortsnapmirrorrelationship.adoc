@@ -15,6 +15,7 @@ L'interfaccia utente Web del software Element utilizza il `AbortSnapMirrorRelati
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -67,6 +68,7 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -85,6 +87,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[SnapMirrorRelationship]
 |===
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,1

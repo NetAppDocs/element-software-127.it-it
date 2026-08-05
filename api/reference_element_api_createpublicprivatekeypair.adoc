@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo CreatePublicPrivateKeyPair per creare
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -115,12 +116,14 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo non ha valori restituiti. Se non si verificano errori, la creazione della chiave viene considerata corretta.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -139,6 +142,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -153,6 +157,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 11,7

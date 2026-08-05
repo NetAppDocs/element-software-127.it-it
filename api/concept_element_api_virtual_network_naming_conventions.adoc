@@ -19,6 +19,7 @@ Quando si crea un nuovo volume, il nuovo volume ID corrisponde a un incremento d
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

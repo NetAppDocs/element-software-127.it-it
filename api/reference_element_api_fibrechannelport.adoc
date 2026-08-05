@@ -15,6 +15,7 @@ L'oggetto fiberChannelPort contiene informazioni sulle singole porte di un nodo 
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -136,6 +137,7 @@ stringa
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listnodefibrechannelportinfo.adoc[ListNodeFibreChannelPortInfo]

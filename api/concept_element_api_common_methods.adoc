@@ -24,6 +24,7 @@ I metodi comuni sono metodi utilizzati per recuperare informazioni sul cluster d
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

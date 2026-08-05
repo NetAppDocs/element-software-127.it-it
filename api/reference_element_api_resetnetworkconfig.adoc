@@ -15,18 +15,21 @@ summary: È possibile utilizzare il metodo ResetNetworkConfig per risolvere i pr
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo non ha valori restituiti.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -41,12 +44,14 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo non restituisce una risposta.
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 11,0

@@ -17,6 +17,7 @@ A un account possono essere assegnati fino a duemila volumi, ma un volume può a
 
 
 
+[[chap-algorithms]]
 == Algoritmi CHAP
 
 A partire dall'elemento 12,7, sono supportati gli algoritmi CHAP SHA1, SHA-256 e SHA3-256 sicuri e conformi FIPS. Con l'elemento 12,7, quando un iniziatore iSCSI host crea una sessione iSCSI con una destinazione iSCSI Element, richiede un elenco di algoritmi CHAP da utilizzare. La destinazione iSCSI Element sceglie il primo algoritmo supportato dall'elenco richiesto dall'iniziatore iSCSI host. Per confermare che la destinazione iSCSI Element sceglie l'algoritmo più sicuro, è necessario configurare l'iniziatore iSCSI host in modo che invii un elenco di algoritmi ordinati da più sicuri, ad esempio, SHA3-256, a meno sicuri, ad esempio, SHA1 o MD5. Quando gli algoritmi SHA non sono richiesti dall'iniziatore iSCSI host, l'elemento iSCSI target sceglie MD5, supponendo che l'elenco di algoritmi proposto dall'host contenga MD5. Potrebbe essere necessario aggiornare la configurazione dell'iniziatore iSCSI host per abilitare il supporto per gli algoritmi protetti.
@@ -29,6 +30,7 @@ Se necessario, è possibile utilizzare il https://docs.netapp.com/us-en/element-
 
 
 
+[[create-an-account]]
 == Creare un account
 
 È possibile creare un account per consentire l'accesso ai volumi.
@@ -53,6 +55,7 @@ NOTE: Lasciare vuoti i campi delle credenziali per generare automaticamente una 
 
 
 
+[[view-account-details]]
 == Visualizza i dettagli dell'account
 
 È possibile visualizzare l'attività delle performance per i singoli account in un formato grafico.
@@ -82,6 +85,7 @@ Di seguito sono riportati alcuni dettagli:
 
 
 
+[[edit-an-account]]
 == Modificare un account
 
 È possibile modificare un account per modificare lo stato, i segreti CHAP o il nome dell'account.
@@ -110,6 +114,7 @@ NOTE: Se non si modificano le credenziali *CHAP Settings*, queste rimangono inva
 
 
 
+[[delete-an-account]]
 == Eliminare un account
 
 È possibile eliminare un account quando non è più necessario.
@@ -127,6 +132,7 @@ IMPORTANT: I volumi persistenti associati ai servizi di gestione vengono assegna
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

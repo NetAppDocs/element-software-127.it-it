@@ -15,6 +15,7 @@ L'interfaccia utente Web del software Element utilizza il `ListSnapMirrorEndpoin
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -37,6 +38,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -57,6 +59,7 @@ xref:reference_element_api_snapmirrorendpoint.adoc[SnapMirrorEndpoint] array
 |===
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,0

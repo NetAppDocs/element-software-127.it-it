@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare ListAsyncResults per elencare i risultati di t
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -44,6 +45,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -64,6 +66,7 @@ Array di oggetti JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -79,6 +82,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -108,12 +112,14 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_getasyncresult.adoc[GetAsyncResult]

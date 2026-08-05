@@ -28,6 +28,7 @@ keywords: netapp, Element, management node, management services, version, bundle
 
 
 
+[[api-commands]]
 == Comandi API
 
 * Ottenere informazioni sulla versione del sistema operativo del nodo di gestione, del bundle di servizi di gestione e del servizio API del nodo di gestione (mnode-api) in esecuzione sul nodo di gestione:
@@ -50,6 +51,7 @@ NOTE: È possibile trovare il bearer `${TOKEN}` utilizzato dal comando API quand
 
 
 
+[[rest-api-ui-steps]]
 == FASI DELL'INTERFACCIA UTENTE API REST
 
 . Accedere all'interfaccia utente API REST per il servizio immettendo l'indirizzo IP del nodo di gestione seguito da `/mnode/`:

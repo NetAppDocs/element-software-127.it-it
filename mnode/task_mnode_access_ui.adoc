@@ -24,6 +24,7 @@ Per i cluster che eseguono Element Software versione 11.3 o successiva, è possi
 
 
 
+[[access-the-management-node-per-node-ui]]
 == Accedere all'interfaccia utente del nodo di gestione per nodo
 
 Dall'interfaccia utente per nodo, è possibile accedere alle impostazioni di rete e cluster e utilizzare le utility e i test di sistema.
@@ -43,6 +44,7 @@ image::mnode_per_node_442_ui.png[UI nodo di gestione per nodo]
 
 
 
+[[access-the-management-node-rest-api-ui]]
 == Accedere all'interfaccia utente REST API del nodo di gestione
 
 Dall'interfaccia utente dell'API REST, è possibile accedere a un menu di API correlate al servizio che controllano i servizi di gestione sul nodo di gestione.

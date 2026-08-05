@@ -48,6 +48,7 @@ WARNING: Se non richiesto dall'assistenza NetApp, eventuali modifiche al sistema
 
 
 
+[[troubleshoot-a-cluster-node]]
 == Eseguire il troubleshooting di un nodo del cluster
 
 È possibile eseguire la risoluzione dei problemi di base utilizzando l'account di sistema sfreadonly:
@@ -116,6 +117,7 @@ NOTE: SSH rimane attivato sul nodo di gestione se non viene disattivato. La conf
 
 
 
+[[troubleshoot-a-cluster-node-with-netapp-support]]
 == Eseguire il troubleshooting di un nodo del cluster con il supporto NetApp
 
 Il supporto NetApp può eseguire un troubleshooting avanzato con un account di sistema che consente a un tecnico di eseguire una diagnostica più approfondita degli elementi.
@@ -213,6 +215,7 @@ NOTE: SSH rimane attivato sul nodo di gestione se non viene disattivato. La conf
 
 
 
+[[troubleshoot-a-node-that-is-not-part-of-cluster]]
 == Eseguire il troubleshooting di un nodo che non fa parte del cluster
 
 È possibile eseguire il troubleshooting di base di un nodo non ancora aggiunto a un cluster. A tale scopo, è possibile utilizzare l'account di sistema sfreadonly con o senza l'aiuto del supporto NetApp. Se è stato configurato un nodo di gestione, è possibile utilizzarlo per SSH ed eseguire lo script fornito per questa attività.

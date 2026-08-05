@@ -24,12 +24,14 @@ Il software NetApp Element definisce diversi ruoli di nodo per un cluster. I tip
 
 
 
+[[management-node]]
 == Nodo di gestione
 
 Un nodo di gestione è una macchina virtuale utilizzata per aggiornare e fornire servizi di sistema, tra cui monitoring e telemetria, gestire risorse e impostazioni dei cluster, eseguire test e utility di sistema e abilitare l'accesso al supporto NetApp per il troubleshooting. link:../concepts/concept_intro_management_node.html["Scopri di più"]
 
 
 
+[[storage-node]]
 == Nodo storage
 
 Un nodo di storage SolidFire è un server che contiene una raccolta di dischi che comunicano tra loro attraverso l'interfaccia di rete Bond10G. I dischi nel nodo contengono spazio di blocchi e metadati per lo storage e la gestione dei dati. Ogni nodo contiene un'immagine di fabbrica del software NetApp Element.
@@ -45,6 +47,7 @@ I nodi di storage hanno le seguenti caratteristiche:
 
 
 
+[[fibre-channel-node]]
 == Nodo Fibre Channel
 
 I nodi Fibre Channel SolidFire forniscono connettività a uno switch Fibre Channel, che è possibile collegare ai client Fibre Channel. I nodi Fibre Channel fungono da convertitore di protocollo tra i protocolli Fibre Channel e iSCSI, consentendo di aggiungere connettività Fibre Channel a qualsiasi cluster SolidFire nuovo o esistente.
@@ -59,6 +62,7 @@ I nodi Fibre Channel hanno le seguenti caratteristiche:
 
 
 
+[[node-states-of-operation]]
 == stato operativo del nodo
 
 [role="lead"]

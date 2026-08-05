@@ -17,6 +17,7 @@ L'oggetto syncJob contiene informazioni sui processi di sincronizzazione di clon
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -212,6 +213,7 @@ stringa
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]

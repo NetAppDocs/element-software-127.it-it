@@ -26,6 +26,7 @@ I metodi dei gruppi di accesso ai volumi consentono di aggiungere, rimuovere, vi
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

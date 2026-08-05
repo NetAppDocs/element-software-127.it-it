@@ -18,6 +18,7 @@ Questa procedura serve per sostituire i dischi nei nodi di storage H410S e H610S
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == Best practice per l'aggiunta e la rimozione di dischi
 
 * Aggiungi tutti i dischi a blocchi e assicurati che la sincronizzazione dei blocchi sia completa prima di aggiungere i dischi slice.
@@ -106,6 +107,7 @@ NOTE: Quando si installa un nuovo disco in un nodo esistente, il disco viene aut
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

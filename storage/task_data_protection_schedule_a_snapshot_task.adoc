@@ -17,6 +17,7 @@ Quando si configura una pianificazione snapshot, è possibile scegliere tra inte
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_data_protection_create_a_snapshot_schedule.adoc[Creare una pianificazione di snapshot]

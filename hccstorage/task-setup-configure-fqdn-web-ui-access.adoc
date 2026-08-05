@@ -34,6 +34,7 @@ Questo processo consente al cluster di reindirizzare correttamente una sessione 
 
 
 
+[[configure-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == Configurare l'accesso all'interfaccia utente Web FQDN utilizzando NetApp Hybrid Cloud Control
 
 .Fasi
@@ -60,6 +61,7 @@ NOTE: Solo i cluster di storage connessi con il set FQDN sono elencati nel riqua
 
 
 
+[[configure-fqdn-web-ui-access-using-the-rest-api]]
 == Configurare l'accesso all'interfaccia utente Web FQDN utilizzando l'API REST
 
 .Fasi
@@ -116,6 +118,7 @@ Ad esempio:
 
 
 
+[[remove-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == Rimuovere l'accesso all'interfaccia utente Web FQDN utilizzando NetApp Hybrid Cloud Control
 
 È possibile utilizzare questa procedura per rimuovere l'accesso Web FQDN per il nodo di gestione e i cluster di storage.
@@ -131,6 +134,7 @@ La finestra si chiude e l'FQDN non è più elencato nel riquadro *Fully Qualifie
 
 
 
+[[remove-fqdn-web-ui-access-using-the-rest-api]]
 == Rimuovere l'accesso all'interfaccia utente Web FQDN utilizzando l'API REST
 
 .Fasi
@@ -181,6 +185,7 @@ https://<management_node_IP>/mnode/2/
 
 
 
+[[troubleshooting]]
 == Risoluzione dei problemi
 
 Se gli FQDN non sono configurati correttamente, potrebbero verificarsi problemi di accesso al nodo di gestione, a un cluster di storage o a entrambi. Utilizzare le seguenti informazioni per risolvere il problema.
@@ -212,6 +217,7 @@ Se gli FQDN non sono configurati correttamente, potrebbero verificarsi problemi 
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

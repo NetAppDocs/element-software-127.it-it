@@ -15,6 +15,7 @@ La configurazione di rete per un sistema SolidFire comprende i requisiti di swit
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * link:../storage/concept_prereq_switch_configuration_for_solidfire_clusters.html["Configurazione dello switch per i cluster che eseguono il software Element"]

@@ -15,6 +15,7 @@ Una volta mitigato il problema sul lato primario, è necessario risincronizzare 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[Eseguire un failback quando il volume di origine esiste ancora]

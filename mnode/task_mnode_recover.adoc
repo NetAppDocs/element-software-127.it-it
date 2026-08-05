@@ -56,6 +56,7 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == Scarica ISO o OVA e implementa la macchina virtuale
 
 . Scaricare OVA o ISO per l'installazione dalla https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Software Element"^] pagina del sito di supporto NetApp.
@@ -97,6 +98,7 @@ NOTE: L'installazione di un nodo di gestione mediante l'immagine potrebbe causar
 
 
 
+[[configure-the-network]]
 == Configurare la rete
 
 . Utilizzando l'interfaccia utente del terminale (TUI), creare un utente admin del nodo di gestione.
@@ -113,6 +115,7 @@ NOTE: Se è necessaria una scheda NIC aggiuntiva per isolare il traffico di stor
 
 
 
+[[configure-time-sync]]
 == Configurare la sincronizzazione dell'ora
 
 . Assicurarsi che il tempo sia sincronizzato tra il nodo di gestione e il cluster di storage utilizzando NTP:
@@ -190,6 +193,7 @@ NOTE: Non modificare l'NTP dopo aver completato la configurazione della sincroni
 
 
 
+[[configure-the-management-node]]
 == Configurare il nodo di gestione
 
 . Creare una directory di destinazione temporanea per il contenuto del bundle di servizi di gestione:
@@ -224,6 +228,7 @@ echo '{"trident": true, "mvip": "[mvip IP address]", "account_name": "[persisten
 *** *[nome account volume persistente]*: Il nome dell'account associato a tutti i volumi persistenti in questo cluster di storage.
 
 
+.. [[step_6_recover_mnode_redeploy]]
 
 
 . Configurare ed eseguire il comando di ridistribuzione del nodo di gestione per connettersi ai volumi persistenti ospitati sul cluster e avviare i servizi con i dati di configurazione del nodo di gestione precedenti:

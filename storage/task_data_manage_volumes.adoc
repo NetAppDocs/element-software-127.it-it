@@ -17,6 +17,7 @@ Dalla pagina Volumes (volumi) della scheda Management (Gestione), è possibile c
 
 
 
+[[create-a-volume]]
 == Creare un volume
 
 È possibile creare un volume e associarlo a un determinato account. Ogni volume deve essere associato a un account. Questa associazione consente all'account di accedere al volume tramite gli iniziatori iSCSI utilizzando le credenziali CHAP.
@@ -59,6 +60,7 @@ I volumi con un valore massimo o burst IOPS superiore a 20,000 IOPS potrebbero r
 
 
 
+[[view-volume-details]]
 == Visualizzare i dettagli del volume
 
 . Selezionare *Management* > *Volumes*.
@@ -100,6 +102,7 @@ I volumi con un valore massimo o burst IOPS superiore a 20,000 IOPS potrebbero r
 
 
 
+[[view-individual-volume-details]]
 == Visualizzare i dettagli dei singoli volumi
 
 È possibile visualizzare le statistiche delle performance per i singoli volumi.
@@ -118,6 +121,7 @@ Il sistema visualizza informazioni dettagliate e grafici delle prestazioni per i
 
 
 
+[[edit-active-volumes]]
 == Modificare i volumi attivi
 
 È possibile modificare gli attributi del volume, ad esempio i valori di QoS, le dimensioni del volume e l'unità di misura in cui vengono calcolati i valori di byte. È inoltre possibile modificare l'accesso all'account per l'utilizzo della replica o per limitare l'accesso al volume.
@@ -187,6 +191,7 @@ TIP: Configurare volumi con un valore burst estremamente elevato. Ciò consente 
 
 
 
+[[delete-a-volume]]
 == Eliminare un volume
 
 È possibile eliminare uno o più volumi da un cluster di storage Element.
@@ -225,6 +230,7 @@ Il sistema sposta i volumi nell'area *Deleted* della pagina *Volumes*.
 
 
 
+[[restore-a-deleted-volume]]
 == Ripristinare un volume cancellato
 
 È possibile ripristinare un volume nel sistema se è stato eliminato ma non ancora eliminato. Il sistema elimina automaticamente un volume circa otto ore dopo l'eliminazione. Se il sistema ha disinstallato il volume, non è possibile ripristinarlo.
@@ -241,6 +247,7 @@ Il volume viene inserito nell'elenco dei volumi *attivi* e le connessioni iSCSI 
 
 
 
+[[purge-a-volume]]
 == Eliminare un volume
 
 Quando un volume viene eliminato, viene rimosso in modo permanente dal sistema. Tutti i dati nel volume vengono persi.
@@ -280,6 +287,7 @@ Eliminare più volumi
 
 
 
+[[clone-a-volume]]
 == Clonare un volume
 
 È possibile creare un clone di uno o più volumi per creare una copia point-in-time dei dati. Quando si clonano un volume, il sistema crea uno snapshot del volume e quindi una copia dei dati a cui fa riferimento lo snapshot. Si tratta di un processo asincrono e la quantità di tempo richiesta dal processo dipende dalla dimensione del volume che si sta clonando e dal carico corrente del cluster.
@@ -336,6 +344,7 @@ NOTE: L'aumento delle dimensioni del volume di un clone comporta la creazione di
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

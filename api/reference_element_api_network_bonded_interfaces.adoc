@@ -15,6 +15,7 @@ L'oggetto Network (Bonded Interfaces) contiene informazioni di configurazione pe
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -294,6 +295,7 @@ stringa
 |===
 
 
+[[member-modifiability-and-node-states]]
 == Modificabilità dei membri e stati dei nodi
 
 Questa tabella indica se i parametri dell'oggetto possono essere modificati o meno in ogni stato di nodo possibile.
@@ -602,6 +604,7 @@ Sì
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_getconfig.adoc[GetConfig]

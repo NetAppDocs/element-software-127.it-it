@@ -15,18 +15,21 @@ summary: È possibile utilizzare il metodo ListPendingNodes per elencare i nodi 
 
 
 
+[[ipv4-and-ipv6-management-addresses]]
 == Indirizzi di gestione IPv4 e IPv6
 
 Tenere presente che `ListPendingNodes` non elenca i nodi in sospeso che hanno diversi tipi di indirizzo per l'indirizzo IP di gestione (MIP) e l'indirizzo IP virtuale di gestione (MVIP). Ad esempio, se un nodo in sospeso ha un MVIP IPv6 e un MIP IPv4, `ListPendingNodes` non includerà il nodo come parte del risultato.
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -45,6 +48,7 @@ xref:reference_element_api_pendingnode.adoc[PendingNode] array
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -59,6 +63,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -95,12 +100,14 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_addnodes.adoc[AddNode]

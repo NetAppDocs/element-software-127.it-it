@@ -32,6 +32,7 @@ Puoi gestire i volumi in NetApp Hybrid Cloud Control nei seguenti modi:
 
 
 
+[[create-a-volume]]
 == Creare un volume
 
 È possibile creare un volume di storage utilizzando NetApp Hybrid Cloud Control.
@@ -74,6 +75,7 @@ I volumi con un valore massimo o burst IOPS superiore a 20,000 IOPS potrebbero r
 
 
 
+[[apply-a-qos-policy-to-a-volume]]
 == Applicare un criterio QoS a un volume
 
 È possibile applicare una policy di QoS ai volumi di storage esistenti utilizzando NetApp Hybrid Cloud Control. Se invece è necessario impostare valori QoS personalizzati per un volume, è possibile <<Modificare un volume>>. Per creare un nuovo criterio QoS, vedere link:task-hcc-qos-policies.html["Creare e gestire policy di QoS per volumi"^].
@@ -93,6 +95,7 @@ NOTE: Se si utilizzano policy QoS su un volume, è possibile impostare una QoS p
 
 
 
+[[edit-a-volume]]
 == Modificare un volume
 
 Utilizzando NetApp Hybrid Cloud Control, è possibile modificare gli attributi del volume, ad esempio i valori QoS, le dimensioni del volume e l'unità di misura in base alla quale vengono calcolati i valori di byte. È inoltre possibile modificare l'accesso all'account per l'utilizzo della replica o per limitare l'accesso al volume.
@@ -162,6 +165,7 @@ TIP: Quando si modificano i valori IOPS, è necessario aumentare in decine o cen
 
 
 
+[[clone-volumes]]
 == Clonare i volumi
 
 È possibile creare un clone di un singolo volume di storage o clonare un gruppo di volumi per creare una copia point-in-time dei dati. Quando si clonano un volume, il sistema crea uno snapshot del volume e quindi una copia dei dati a cui fa riferimento lo snapshot.
@@ -212,6 +216,7 @@ NOTE: Il tempo necessario per completare un'operazione di cloning dipende dalle 
 
 
 
+[[add-volumes-to-a-volume-access-group]]
 == Aggiungere volumi a un gruppo di accesso al volume
 
 È possibile aggiungere un singolo volume o un gruppo di volumi a un gruppo di accesso al volume.
@@ -228,6 +233,7 @@ NOTE: Il tempo necessario per completare un'operazione di cloning dipende dalle 
 
 
 
+[[delete-a-volume]]
 == Eliminare un volume
 
 È possibile eliminare uno o più volumi da un cluster di storage Element.
@@ -251,6 +257,7 @@ IMPORTANT: I volumi persistenti associati ai servizi di gestione vengono creati 
 
 
 
+[[restore-a-deleted-volume]]
 == Ripristinare un volume cancellato
 
 Una volta eliminato un volume di storage, è comunque possibile ripristinarlo entro otto ore dall'eliminazione.
@@ -268,6 +275,7 @@ Il sistema non elimina immediatamente i volumi cancellati, ma rimangono disponib
 
 
 
+[[purge-a-deleted-volume]]
 == Eliminare un volume cancellato
 
 Una volta cancellati, i volumi di storage rimangono disponibili per circa otto ore. Dopo otto ore, vengono eliminati automaticamente e non più disponibili. Se non si desidera attendere le otto ore, è possibile eliminare

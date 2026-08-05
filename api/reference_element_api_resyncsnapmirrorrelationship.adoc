@@ -15,6 +15,7 @@ L'interfaccia utente Web del software Element utilizza il `ResyncSnapMirrorRelat
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -76,6 +77,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -96,6 +98,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[SnapMirrorRelationship]
 |===
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,1

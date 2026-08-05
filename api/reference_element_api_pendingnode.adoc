@@ -15,6 +15,7 @@ L'oggetto pendingNode contiene informazioni su un nodo che può essere aggiunto 
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -153,6 +154,7 @@ stringa
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_addnodes.adoc[AddNode]

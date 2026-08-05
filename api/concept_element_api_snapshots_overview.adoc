@@ -19,6 +19,7 @@ Uno snapshot di un volume è una copia point-in-time di un volume. È possibile 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

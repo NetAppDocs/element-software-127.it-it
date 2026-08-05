@@ -42,6 +42,7 @@ Consente di visualizzare informazioni sulle porte Fibre Channel collegate al clu
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

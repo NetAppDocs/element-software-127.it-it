@@ -15,6 +15,7 @@ L'oggetto fipsReport contiene informazioni sul supporto FIPS 140-2 per tutti i n
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

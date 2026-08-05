@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo TestDrives per eseguire una convalid
 
 
 
+[[parameters]]
 == Parametri
 
 È possibile utilizzare il metodo solo `TestDrives` su nodi che non sono "attivi" in un cluster.
@@ -55,6 +56,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -73,6 +75,7 @@ Oggetto JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -90,12 +93,14 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una tabella contenente i risultati dei test per ogni disco nel nodo.
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

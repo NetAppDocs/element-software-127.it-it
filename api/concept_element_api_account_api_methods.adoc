@@ -24,6 +24,7 @@ I metodi account consentono di aggiungere, rimuovere, visualizzare e modificare 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

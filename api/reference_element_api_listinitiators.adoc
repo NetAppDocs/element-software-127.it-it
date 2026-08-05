@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo ListInitialators per ottenere l"elen
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -63,6 +64,7 @@ No
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -83,6 +85,7 @@ xref:reference_element_api_initiator.adoc[iniziatore] array
 |===
 
 
+[[exceptions]]
 == Eccezioni
 
 Questo metodo può avere la seguente eccezione:
@@ -101,6 +104,7 @@ Viene generato se si includono sia l'ID startInitialatorID che i parametri degli
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -115,6 +119,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -140,6 +145,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

@@ -15,6 +15,7 @@ summary: È possibile utilizzare ModifySnapMirrorRelationship per modificare gli
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -91,6 +92,7 @@ Sì
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -111,6 +113,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[SnapMirrorRelationship]
 |===
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 10,1

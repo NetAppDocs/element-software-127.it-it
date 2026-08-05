@@ -19,6 +19,7 @@ I container di storage vengono creati e legati agli account NetApp Element. Un c
 
 
 
+[[create-a-storage-container]]
 == Creare un container di storage
 
 È possibile creare contenitori di storage nell'interfaccia utente di Element e rilevarli in vCenter. È necessario creare almeno un container di storage per iniziare il provisioning delle macchine virtuali con supporto Vol.
@@ -48,6 +49,7 @@ NOTE: Poiché un ID account NetApp Element viene creato automaticamente e assegn
 
 
 
+[[view-storage-container-details]]
 == Visualizzare i dettagli del container di storage
 
 Nella pagina Storage Containers della scheda VVol, è possibile visualizzare le informazioni relative a tutti i container di storage attivi nel cluster.
@@ -67,6 +69,7 @@ Nella pagina Storage Containers della scheda VVol, è possibile visualizzare le 
 
 
 
+[[view-individual-storage-container-details]]
 == Visualizzare i dettagli dei singoli container di storage
 
 È possibile visualizzare le informazioni sul contenitore di storage per un singolo contenitore selezionandole dalla pagina Storage Containers nella scheda VVols.
@@ -87,6 +90,7 @@ Nella pagina Storage Containers della scheda VVol, è possibile visualizzare le 
 
 
 
+[[edit-a-storage-container]]
 == Modificare un container di storage
 
 È possibile modificare l'autenticazione CHAP del container di storage nell'interfaccia utente di Element.
@@ -104,6 +108,7 @@ TIP: Se non si modificano le credenziali CHAP Settings, queste rimangono invaria
 
 
 
+[[delete-a-storage-container]]
 == Eliminare un contenitore di storage
 
 È possibile eliminare i contenitori di storage dall'interfaccia utente di Element.

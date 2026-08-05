@@ -15,6 +15,7 @@ L'oggetto task contiene informazioni su un'attività di volume virtuale attualme
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -133,6 +134,7 @@ UUID
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listvirtualvolumetasks.adoc[ListVirtualVolumeTasks]

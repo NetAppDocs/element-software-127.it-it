@@ -27,6 +27,7 @@ NOTE: Quando avvii una nuova sessione di NetApp Hybrid Cloud Control per la prim
 
 
 
+[[access-the-netapp-hcc-dashboard]]
 == Accedere al dashboard di NetApp HCC
 
 . Aprire l'indirizzo IP del nodo di gestione in un browser Web. Ad esempio:
@@ -43,6 +44,7 @@ image::hcc_dashboard_all.PNG[HCC Dashboard]
 
 
 
+[[monitor-storage-resources]]
 == Monitorare le risorse di storage
 
 Utilizzare il riquadro *Storage* per visualizzare l'intero ambiente di storage. È possibile monitorare il numero di cluster di storage, nodi di storage e volumi totali.
@@ -59,6 +61,7 @@ TIP: Per visualizzare i dati più recenti del cluster di storage, utilizzare la 
 
 
 
+[[monitor-storage-capacity]]
 == Monitorare la capacità dello storage
 
 Il monitoraggio della capacità di storage del tuo ambiente è fondamentale. Il riquadro Storage Capacity (capacità storage) consente di determinare i vantaggi in termini di efficienza della capacità dello storage con o senza funzionalità di compressione, deduplica e thin provisioning abilitate.
@@ -97,6 +100,7 @@ NOTE: Efficienze totali pari a (fattore di efficienza maxUsedSpace *) / 2, dove 
 
 
 
+[[monitor-storage-performance]]
 == Monitorare le performance dello storage
 
 È possibile osservare la quantità di IOPS o di throughput che è possibile ottenere da un cluster senza superare le utili performance di tale risorsa utilizzando il riquadro Storage Performance (prestazioni dello storage). Le performance dello storage sono il punto in cui si ottiene il massimo utilizzo prima che la latenza diventi un problema.

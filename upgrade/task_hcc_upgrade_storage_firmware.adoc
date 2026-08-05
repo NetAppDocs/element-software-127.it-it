@@ -86,6 +86,7 @@ Scegliere una delle seguenti opzioni di aggiornamento del firmware dello storage
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-storage-firmware]]
 == Utilizza l'interfaccia utente di NetApp Hybrid Cloud Control per aggiornare il firmware dello storage
 
 È possibile utilizzare l'interfaccia utente di NetApp Hybrid Cloud Control per aggiornare il firmware dei nodi di storage nel cluster.
@@ -144,6 +145,7 @@ Una volta completato l'aggiornamento, è possibile scaricare i registri.
 
 
 
+[[upgrade-status-changes]]
 === Lo stato dell'aggiornamento cambia
 
 Di seguito sono riportati i diversi stati visualizzati nella colonna *Upgrade Status* (Stato aggiornamento) dell'interfaccia utente prima, durante e dopo il processo di aggiornamento:
@@ -175,6 +177,7 @@ Di seguito sono riportati i diversi stati visualizzati nella colonna *Upgrade St
 |===
 
 
+[[what-happens-if-an-upgrade-fails-using-netapp-hybrid-cloud-control]]
 == Cosa succede se un aggiornamento non riesce utilizzando NetApp Hybrid Cloud Control
 
 In caso di guasto di un disco o di un nodo durante un aggiornamento, l'interfaccia utente dell'elemento visualizza gli errori del cluster. Il processo di aggiornamento non passa al nodo successivo e attende la risoluzione dei guasti del cluster. La barra di avanzamento nell'interfaccia utente mostra che l'aggiornamento è in attesa della risoluzione degli errori del cluster. In questa fase, la selezione di *Pausa* nell'interfaccia utente non funzionerà, perché l'aggiornamento attende che il cluster sia integro. Sarà necessario contattare il supporto NetApp per fornire assistenza durante l'indagine sul guasto.
@@ -191,6 +194,7 @@ CAUTION: L'interruzione dell'aggiornamento del cluster durante l'aggiornamento d
 
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-storage-firmware]]
 == Utilizza l'API di controllo del cloud ibrido di NetApp per aggiornare il firmware dello storage
 
 È possibile utilizzare le API per aggiornare i nodi di storage in un cluster alla versione più recente del software Element. È possibile utilizzare uno strumento di automazione a scelta per eseguire le API. Il flusso di lavoro API qui documentato utilizza l'interfaccia utente REST API disponibile sul nodo di gestione come esempio.

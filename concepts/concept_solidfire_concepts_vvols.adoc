@@ -18,12 +18,14 @@ VSphere Virtual Volumes è un paradigma di storage per VMware che sposta gran pa
 
 
 
+[[bindings]]
 == Associazioni
 
 Il cluster NetApp Element sceglie un endpoint del protocollo ottimale, crea un binding che associa l'host ESXi e il volume virtuale all'endpoint del protocollo e restituisce il binding all'host ESXi. Una volta eseguito il bound, l'host ESXi può eseguire operazioni di i/o con il volume virtuale associato.
 
 
 
+[[protocol-endpoints]]
 == Endpoint del protocollo
 
 Gli host VMware ESXi utilizzano proxy i/o logici noti come endpoint del protocollo per comunicare con i volumi virtuali. Gli host ESXi collegano i volumi virtuali agli endpoint del protocollo per eseguire operazioni di i/O. Quando una macchina virtuale sull'host esegue un'operazione di i/o, l'endpoint del protocollo associato indirizza l'i/o al volume virtuale con cui è associato.
@@ -34,6 +36,7 @@ ISCSI è l'unico protocollo supportato per il software NetApp Element. Il protoc
 
 
 
+[[storage-containers]]
 == Container di storage
 
 I container di storage sono costrutti logici che vengono mappati agli account NetApp Element e utilizzati per la creazione di report e l'allocazione delle risorse. Raggruppano capacità di storage raw o capacità di storage aggregate che il sistema di storage può fornire ai volumi virtuali. Un datastore VVol creato in vSphere viene mappato a un singolo container di storage. Per impostazione predefinita, un singolo container di storage dispone di tutte le risorse disponibili dal cluster NetApp Element. Se è necessaria una governance più granulare per il multi-tenancy, è possibile creare più container di storage.
@@ -42,6 +45,7 @@ I container di storage funzionano come gli account tradizionali e possono conten
 
 
 
+[[vasa-provider]]
 == Provider VASA
 
 Per rendere vSphere consapevole della funzionalità vVol sul cluster NetApp Element, l'amministratore di vSphere deve registrare il provider VASA NetApp Element con vCenter. Il provider VASA è il percorso di controllo out-of-band tra vSphere e il cluster di elementi. È responsabile dell'esecuzione delle richieste sul cluster Element per conto di vSphere, come la creazione di macchine virtuali, la messa a disposizione di vSphere delle macchine virtuali e la pubblicità delle funzionalità di storage su vSphere.

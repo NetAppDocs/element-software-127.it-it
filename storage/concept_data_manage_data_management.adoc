@@ -20,6 +20,7 @@ summary: 'È possibile gestire i dati in un cluster che esegue il software Eleme
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

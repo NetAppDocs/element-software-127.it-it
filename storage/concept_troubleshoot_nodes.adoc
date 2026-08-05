@@ -37,6 +37,7 @@ Lo spegnimento di un nodo deve essere eseguito sotto la direzione del supporto N
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2844772["Sostituzione di uno chassis SolidFire guasto"]

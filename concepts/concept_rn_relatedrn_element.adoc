@@ -18,6 +18,7 @@ NOTE: Ti verrà richiesto di effettuare l'accesso utilizzando le credenziali del
 
 
 
+[[netapp-element-software]]
 == Software NetApp Element
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["Note sulla versione del software NetApp Element 12,7"^]
@@ -39,6 +40,7 @@ NOTE: Ti verrà richiesto di effettuare l'accesso utilizzando le credenziali del
 
 
 
+[[management-services]]
 == Servizi di gestione
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Note sulla versione di Management Services"^]
@@ -46,6 +48,7 @@ NOTE: Ti verrà richiesto di effettuare l'accesso utilizzando le credenziali del
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == Plug-in NetApp Element per server vCenter
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["VCenter Plug-in 5,4 - Note sulla versione"^] _NUOVO_
@@ -65,6 +68,7 @@ NOTE: Ti verrà richiesto di effettuare l'accesso utilizzando le credenziali del
 
 
 
+[[storage-firmware]]
 == Firmware dello storage
 
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.182.0.html["Note di rilascio del bundle del firmware di archiviazione 2.182.0"^] _NUOVO_
@@ -81,6 +85,7 @@ NOTE: Ti verrà richiesto di effettuare l'accesso utilizzando le credenziali del
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

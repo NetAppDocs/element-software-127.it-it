@@ -28,6 +28,7 @@ NOTE: Per impostazione predefinita, la stringa di comunità è pubblica e la ret
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_system_manage_snmp_configure_snmp_traps.adoc[Configurare i trap SNMP]

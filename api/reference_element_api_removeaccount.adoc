@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo RemoveAccount per rimuovere un accou
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -37,12 +38,14 @@ Sì
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo non ha alcun valore restituito.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente.
@@ -59,6 +62,7 @@ Le richieste per questo metodo sono simili all'esempio seguente.
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -73,12 +77,14 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_deletevolume.adoc[DeleteVolume]

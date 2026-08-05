@@ -28,6 +28,7 @@ WARNING: Per i cluster di storage all-flash SolidFire, la crittografia software 
 
 
 
+[[check-encryption-at-rest-status]]
 == Controllare la crittografia nello stato di riposo
 
 Per visualizzare lo stato attuale della crittografia a riposo e/o della crittografia software a riposo nel cluster, utilizza il link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^] metodo. Questo  metodo consente link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAtRestInfo"^]di ottenere le informazioni utilizzate dal cluster per crittografare i dati inutilizzati.
@@ -43,6 +44,7 @@ NOTE: Al momento, la dashboard dell'interfaccia utente del software Element `htt
 
 
 
+[[enable-hardware-based-encryption-at-rest]]
 == Abilitare la crittografia basata su hardware a riposo
 
 
@@ -54,6 +56,7 @@ NOTE: Per abilitare la crittografia a riposo utilizzando una configurazione di g
 
 
 
+[[enable-software-based-encryption-at-rest]]
 == Abilitare la crittografia basata su software a riposo
 
 
@@ -64,6 +67,7 @@ NOTE: La crittografia software a riposo non può essere disattivata dopo che è 
 
 
 
+[[disable-hardware-based-encryption-at-rest]]
 == Disattiva la crittografia basata su hardware a riposo
 
 . Dall'interfaccia utente di Element, selezionare *Cluster* > *Settings*.

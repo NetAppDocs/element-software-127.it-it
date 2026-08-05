@@ -28,6 +28,7 @@ ssh -i <identity_file> sfreadonly@<node_ip>
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -79,6 +80,7 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -130,6 +132,7 @@ stringa
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -147,6 +150,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -167,6 +171,7 @@ In questo esempio, viene firmata e restituita una chiave pubblica valida per la 
 
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 12,5

@@ -47,6 +47,7 @@ Il nodo viene visualizzato nell'elenco dei nodi attivi.
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[Versione e compatibilità dei nodi]

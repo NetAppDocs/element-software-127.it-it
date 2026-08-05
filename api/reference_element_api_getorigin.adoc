@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo GetOrigin per ottenere il certificato
 
 
 
+[[parameters]]
 == Parametri
 
 
@@ -24,12 +25,14 @@ Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo restituisce le informazioni sulla certificazione di origine del vendor.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -43,6 +46,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -66,6 +70,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

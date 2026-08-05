@@ -21,6 +21,7 @@ summary: 'È possibile gestire il sistema nell"interfaccia utente di Element. Ci
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

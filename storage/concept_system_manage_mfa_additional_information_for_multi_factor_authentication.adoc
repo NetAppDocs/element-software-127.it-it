@@ -24,6 +24,7 @@ NOTE: Se il cluster utilizza un certificato precedente all'aggiornamento a meno 
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * link:../api/index.html["Gestione dello storage con l'API Element"]

@@ -48,6 +48,7 @@ Quando viene aggiunta una rete virtuale, viene creata un'interfaccia per ciascun
 
 
 
+[[view-virtual-network-details]]
 == Visualizza i dettagli della rete virtuale
 
 .Fasi

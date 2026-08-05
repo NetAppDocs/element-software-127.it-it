@@ -17,6 +17,7 @@ Lo storage degli elementi consente di creare, visualizzare, modificare, eliminar
 
 
 
+[[persistent-volumes]]
 == Volumi persistenti
 
 I volumi persistenti consentono ai dati di configurazione dei nodi di gestione di essere memorizzati in un cluster di storage specifico, piuttosto che localmente con una macchina virtuale, in modo che i dati possano essere conservati in caso di perdita o rimozione dei nodi di gestione. I volumi persistenti sono una configurazione del nodo di gestione opzionale ma consigliata.

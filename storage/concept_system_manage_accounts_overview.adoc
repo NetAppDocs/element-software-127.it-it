@@ -19,6 +19,7 @@ Nei sistemi storage SolidFire, i tenant possono utilizzare gli account per conse
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

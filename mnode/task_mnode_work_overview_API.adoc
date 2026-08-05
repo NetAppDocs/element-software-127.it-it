@@ -20,6 +20,7 @@ Attività che è possibile eseguire con le API REST:
 
 
 
+[[authorization]]
 == Autorizzazione
 
 * link:task_mnode_api_get_authorizationtouse.html["Ottenere l'autorizzazione per utilizzare le API REST"]
@@ -27,6 +28,7 @@ Attività che è possibile eseguire con le API REST:
 
 
 
+[[asset-configuration]]
 == Configurazione delle risorse
 
 * link:task_mnode_enable_activeIQ.html["Abilita il monitoraggio Active IQ e NetApp"]
@@ -38,11 +40,12 @@ Attività che è possibile eseguire con le API REST:
 
 
 
+[[asset-management]]
 == Gestione delle risorse
 
 * link:task_mnode_edit_vcenter_assets.html["Visualizzare o modificare le risorse dei controller esistenti"]
 * link:task_mnode_manage_storage_cluster_assets.html["Creare e gestire le risorse del cluster di storage"]
-* link:../hccstorage/task-hcc-collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs["Utilizzare l'API REST per raccogliere i log di sistema degli elementi"]
+* link:../hccstorage/task-hcc-collectlogs.html#use-the-rest-api-to-collect-logs["Utilizzare l'API REST per raccogliere i log di sistema degli elementi"]
 * link:task_mnode_api_find_mgmt_svcs_version.html["Verificare le versioni dei sistemi operativi e dei servizi del nodo di gestione"]
 * link:task_mnode_logs.html["Recupero dei log dai servizi di gestione"]
 

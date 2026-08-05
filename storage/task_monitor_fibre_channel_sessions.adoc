@@ -19,6 +19,7 @@ summary: È possibile visualizzare le sessioni Fibre Channel collegate al cluste
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_monitor_fibre_channel_session_details.adoc[Dettagli della sessione Fibre Channel]

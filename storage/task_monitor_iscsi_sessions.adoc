@@ -19,6 +19,7 @@ summary: È possibile visualizzare le sessioni iSCSI connesse al cluster. È pos
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_monitor_iscsi_session_details.adoc[Dettagli della sessione iSCSI]

@@ -15,6 +15,7 @@ summary: 'È possibile creare un"istantanea di gruppo di un set correlato di vol
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_data_protection_create_a_group_snapshot.adoc[Creare un'istantanea di gruppo]

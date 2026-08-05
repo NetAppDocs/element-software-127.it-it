@@ -15,6 +15,7 @@ L'oggetto volumeAccessGroup contiene informazioni su uno specifico gruppo di acc
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -87,6 +88,7 @@ array intero
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listvolumeaccessgroups.adoc[ListVolumeAccessGroups]

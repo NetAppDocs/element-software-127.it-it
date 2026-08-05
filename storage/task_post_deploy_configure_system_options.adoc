@@ -19,6 +19,7 @@ Inoltre, è possibile configurare le impostazioni per l'autenticazione a più fa
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * link:task_post_deploy_credentials.html["Modificare le credenziali in NetApp HCI e NetApp SolidFire"]

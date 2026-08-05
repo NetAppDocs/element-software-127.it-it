@@ -17,6 +17,7 @@ Utilizzando l'interfaccia Element, l'API o altri strumenti di gestione, è possi
 
 
 
+[[solidfire-features]]
 == Funzionalità di SolidFire
 
 Un sistema SolidFire offre le seguenti funzionalità:
@@ -31,6 +32,7 @@ Un sistema SolidFire offre le seguenti funzionalità:
 
 
 
+[[solidfire-deployment]]
 == Implementazione di SolidFire
 
 Utilizzare i nodi di storage forniti da NetApp e integrati con il software NetApp Element.
@@ -39,6 +41,7 @@ link:../concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://www.netapp.com/data-storage/solidfire/["Panoramica dello storage all-flash SolidFire"^]

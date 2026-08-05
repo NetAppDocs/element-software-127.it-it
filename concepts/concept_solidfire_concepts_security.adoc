@@ -15,6 +15,7 @@ Quando si utilizza il sistema di storage all-flash SolidFire, i dati vengono pro
 
 
 
+[[encryption-at-rest-hardware]]
 == Crittografia a riposo (hardware)
 
 Tutti i dischi nei nodi di storage sono in grado di utilizzare la crittografia AES a 256 bit a livello di unità. Ogni disco dispone di una propria chiave di crittografia, che viene creata al momento della prima inizializzazione del disco. Quando si attiva la funzione di crittografia, viene creata una password a livello di cluster e i frammenti di password vengono quindi distribuiti a tutti i nodi del cluster. Nessun nodo singolo memorizza l'intera password. La password viene quindi utilizzata per proteggere con password tutti gli accessi ai dischi. La password è necessaria per sbloccare l'unità e non è necessaria a meno che l'alimentazione non venga rimossa dall'unità o l'unità non sia bloccata.
@@ -23,6 +24,7 @@ link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_c
 
 
 
+[[encryption-at-rest-software]]
 == Crittografia a riposo (software)
 
 Un altro tipo di crittografia a riposo e a riposo del software consente di crittografare tutti i dati scritti su SSD in un cluster di storage. link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html["Se attivato"^], crittografa tutti i dati scritti e decrittografa tutti i dati letti automaticamente nel software. La crittografia software a riposo esegue il mirroring dell'implementazione dell'unità con crittografia automatica (SED) nell'hardware per garantire la sicurezza dei dati in assenza di SED.
@@ -34,6 +36,7 @@ La crittografia a riposo basata su software e hardware può essere utilizzata in
 
 
 
+[[external-key-management]]
 == Gestione esterna delle chiavi
 
 È possibile configurare Element Software in modo che utilizzi un servizio di gestione delle chiavi (KMS) conforme a KMIP di terze parti per gestire le chiavi di crittografia del cluster di storage. Quando si attiva questa funzione, la chiave di crittografia della password di accesso al disco a livello di cluster dello storage viene gestita da un KMS specificato dall'utente.
@@ -51,6 +54,7 @@ Per ulteriori informazioni sulla configurazione della gestione delle chiavi este
 
 
 
+[[multi-factor-authentication]]
 == Autenticazione a più fattori
 
 L'autenticazione a più fattori (MFA) consente di richiedere agli utenti di presentare diversi tipi di prove per l'autenticazione con l'interfaccia utente Web o l'interfaccia utente del nodo di storage di NetApp Element al momento dell'accesso. È possibile configurare Element in modo che accetti solo l'autenticazione a più fattori per gli accessi che si integrano con il sistema di gestione degli utenti e il provider di identità esistenti. È possibile configurare Element per l'integrazione con un provider di identità SAML 2.0 esistente, in grado di applicare più schemi di autenticazione, ad esempio password e SMS, password e messaggi di posta elettronica o altri metodi.
@@ -61,6 +65,7 @@ Per configurare l'MFA, vedere link:../storage/concept_system_manage_mfa_enable_m
 
 
 
+[[fips-140-2-for-https-and-data-at-rest-encryption]]
 == FIPS 140-2 per HTTPS e crittografia dei dati a riposo
 
 I cluster di storage NetApp SolidFire supportano la crittografia conforme ai requisiti FIPS (Federal Information Processing Standard) 140-2 per i moduli crittografici. È possibile abilitare la conformità FIPS 140-2 sul cluster SolidFire per le comunicazioni HTTPS e la crittografia del disco.
@@ -73,6 +78,7 @@ Per ulteriori informazioni sull'attivazione di FIPS 140-2 in un cluster esistent
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

@@ -25,6 +25,7 @@ summary: Comprendere la sequenza di configurazione di un cluster con nodi di sto
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

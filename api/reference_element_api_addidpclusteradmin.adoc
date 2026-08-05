@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo AddIpdClusterAdmin per aggiungere un
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -76,6 +77,7 @@ Sì
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha il seguente valore restituito:
@@ -96,6 +98,7 @@ intero
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -113,6 +116,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -127,6 +131,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 12,0

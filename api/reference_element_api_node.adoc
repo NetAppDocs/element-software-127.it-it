@@ -15,6 +15,7 @@ L'oggetto node contiene informazioni su ciascun nodo del cluster. È possibile r
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -225,6 +226,7 @@ xref:reference_element_api_virtualnetwork.adoc[VirtualNetwork] array
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_listactivenodes.adoc[ListActiveNode]

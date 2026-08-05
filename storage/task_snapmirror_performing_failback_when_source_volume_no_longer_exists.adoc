@@ -43,6 +43,7 @@ I dati dell'ultimo snapshot vengono trasferiti al nuovo volume come parte dell'o
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:concept_snapmirror_failback_scenarios.adoc[Scenari di failback di SnapMirror]

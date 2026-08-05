@@ -15,6 +15,7 @@ L'oggetto clusterStats contiene dati statistici per un cluster. Molte delle stat
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -288,6 +289,7 @@ intero
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_getclusterstats.adoc[GetClusterStats]

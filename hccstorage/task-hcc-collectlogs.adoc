@@ -30,6 +30,7 @@ Scegliere una delle seguenti opzioni:
 
 
 
+[[use-netapp-hybrid-cloud-control-to-collect-logs]]
 == Utilizza NetApp Hybrid Cloud Control per raccogliere i log
 
 È possibile accedere all'area di raccolta dei log dal NetApp Hybrid Cloud Control Dashboard.
@@ -71,6 +72,7 @@ Il pacchetto di log è in un formato di file .tgz UNIX compresso.
 
 
 
+[[use-the-rest-api-to-collect-logs]]
 == Utilizzare l'API REST per raccogliere i registri
 
 È possibile utilizzare REST API per raccogliere i log degli elementi.

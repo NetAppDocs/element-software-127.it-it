@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo GetDriveStats per ottenere misurazio
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo ha il seguente parametro di input:
@@ -37,6 +38,7 @@ Sì
 |===
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -55,6 +57,7 @@ xref:reference_element_api_drivestats.adoc[DriveStats]
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -71,6 +74,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example-block-drive]]
 == Esempio di risposta (disco a blocchi)
 
 Questo metodo restituisce una risposta simile all'esempio seguente per un disco a blocchi:
@@ -103,6 +107,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente per un disco 
 ----
 
 
+[[response-example-volume-metadata-drive]]
 == Esempio di risposta (unità di metadati del volume)
 
 Questo metodo restituisce una risposta simile all'esempio seguente per un'unità di metadati di un volume:
@@ -136,12 +141,14 @@ Questo metodo restituisce una risposta simile all'esempio seguente per un'unità
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listdrives.adoc[ListDrive]

@@ -15,6 +15,7 @@ L'oggetto storageContainer contiene gli attributi di un container di storage di 
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -100,6 +101,7 @@ Array UUID
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainers]

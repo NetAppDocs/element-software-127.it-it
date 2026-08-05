@@ -32,6 +32,7 @@ IMPORTANT: I sistemi storage SolidFire non supportano la rimozione di un disco s
 
 
 
+[[for-more-information]]
 == Per ulteriori informazioni
 
 * xref:task_troubleshoot_remove_failed_drives.adoc[Rimuovere i dischi guasti dal cluster]

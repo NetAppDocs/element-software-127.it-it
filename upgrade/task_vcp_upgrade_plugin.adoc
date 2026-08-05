@@ -203,6 +203,7 @@ NOTE: Il plug-in vCenter contiene il contenuto della Guida in linea. Per assicur
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

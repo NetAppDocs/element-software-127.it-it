@@ -20,6 +20,7 @@ summary: È possibile visualizzare i dettagli di un singolo gruppo di accesso, a
 
 
 
+[[volume-access-group-details]]
 == Dettagli del gruppo di accesso al volume
 
 La pagina gruppi di accesso nella scheda Gestione fornisce informazioni sui gruppi di accesso ai volumi.

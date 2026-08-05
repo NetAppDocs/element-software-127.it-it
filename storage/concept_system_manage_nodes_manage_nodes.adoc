@@ -17,6 +17,7 @@ Se un nodo aggiunto di recente rappresenta oltre il 50% della capacità totale d
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:task_system_manage_nodes_adding_a_node_to_a_cluster.adoc[Aggiungere un nodo a un cluster]

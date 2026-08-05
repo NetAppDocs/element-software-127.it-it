@@ -33,12 +33,14 @@ Questo ruolo di NetApp HCC limita la visualizzazione dei servizi del nodo di ges
 
 
 
+[[create-a-new-netapp-hcc-role]]
 == Creare un nuovo ruolo NetApp HCC
 
 Impostare un nuovo account utente in vCenter, creare un ruolo NetApp HCC e assegnare le autorizzazioni utente.
 
 
 
+[[set-up-a-new-user-account-in-vcenter]]
 === Impostare un nuovo account utente in vCenter
 
 Per configurare un nuovo account utente in vCenter, procedere come segue.
@@ -54,6 +56,7 @@ Per configurare un nuovo account utente in vCenter, procedere come segue.
 
 
 
+[[create-a-new-netapp-hcc-role-in-vcenter]]
 === Creare un nuovo ruolo NetApp HCC in vCenter
 
 Per creare un nuovo ruolo di NetApp HCC in vCenter, attenersi alla seguente procedura.
@@ -69,6 +72,7 @@ Per creare un nuovo ruolo di NetApp HCC in vCenter, attenersi alla seguente proc
 
 
 
+[[assign-user-permissions-to-vcenter]]
 === Assegnare le autorizzazioni utente a vCenter
 
 Attenersi alla seguente procedura per assegnare le autorizzazioni utente al nuovo ruolo NetApp HCC in vCenter.
@@ -111,6 +115,7 @@ image::mnode_new_HCC_role_vcenter.PNG[Mostra la finestra di autorizzazione Aggiu
 
 
 
+[[assign-user-permissions-to-the-datacenter]]
 === Assegnare le autorizzazioni utente al data center
 
 Attenersi alla seguente procedura per assegnare le autorizzazioni utente al data center in vCenter.
@@ -136,6 +141,7 @@ IMPORTANT: Non selezionare *propaga ai figli*.
 
 
 
+[[assign-user-permissions-to-netapp-hci-datastores]]
 === Assegnare le autorizzazioni utente agli archivi dati NetApp HCI
 
 Per assegnare le autorizzazioni utente agli archivi dati NetApp HCI in vCenter, procedere come segue.
@@ -161,6 +167,7 @@ Aggiungere i seguenti dettagli nella finestra *Aggiungi permesso*:
 
 
 
+[[assign-user-permissions-to-a-netapp-host-cluster]]
 === Assegnare le autorizzazioni utente a un cluster host NetApp
 
 Attenersi alla seguente procedura per assegnare le autorizzazioni utente a un cluster host NetApp in vCenter.
@@ -183,12 +190,14 @@ Aggiungere i seguenti dettagli nella finestra *Aggiungi permesso*:
 
 
 
+[[netapp-esxi-host-configurations]]
 == Configurazioni host NetApp ESXi
 
 Per le configurazioni host NetApp ESXi, è necessario aggiornare l'account utente creato da NDE al nuovo ruolo NetApp HCC.
 
 
 
+[[netapp-esxi-host-does-not-exist-in-a-vcenter-host-cluster]]
 === L'host NetApp ESXi non esiste in un cluster host vCenter
 
 Se l'host NetApp ESXi non esiste all'interno di un cluster host vCenter, è possibile utilizzare la seguente procedura per assegnare il ruolo NetApp HCC e le autorizzazioni utente in vCenter.
@@ -212,6 +221,7 @@ Aggiungere i seguenti dettagli nella finestra *Aggiungi permesso*:
 
 
 
+[[netapp-esxi-host-exists-in-a-vcenter-host-cluster]]
 === L'host NetApp ESXi esiste in un cluster host vCenter
 
 Se un host NetApp ESXi esiste all'interno di un cluster host vCenter con host ESXi di altri fornitori, è possibile utilizzare la seguente procedura per assegnare il ruolo NetApp HCC e le autorizzazioni utente in vCenter.
@@ -251,6 +261,7 @@ Aggiungere i seguenti dettagli nella finestra *Aggiungi permesso*:
 
 
 
+[[controller-asset-already-exists-on-the-management-node]]
 == La risorsa del controller esiste già nel nodo di gestione
 
 Se una risorsa controller esiste già sul nodo di gestione, eseguire i seguenti passaggi per configurare il controller utilizzando `PUT /assets /{asset_id} /controllers /{controller_id}`.
@@ -271,12 +282,14 @@ Se una risorsa controller esiste già sul nodo di gestione, eseguire i seguenti 
 
 
 
+[[add-an-asset-to-the-management-node]]
 == Aggiungere una risorsa al nodo di gestione
 
 Se è necessario aggiungere manualmente una nuova risorsa dopo l'installazione, utilizzare il nuovo account utente HCC creato in <<Impostare un nuovo account utente in vCenter>>. Per ulteriori informazioni, vedere link:task_mnode_add_assets.html["Aggiungere una risorsa controller al nodo di gestione"].
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/vcp/index.html["Plug-in NetApp Element per server vCenter"^]

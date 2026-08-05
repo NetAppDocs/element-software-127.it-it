@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo RestartServices per riavviare i servi
 
 
 
+[[parameters]]
 == Parametri
 
 ATTENZIONE:
@@ -67,6 +68,7 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -103,6 +105,7 @@ stringa
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -119,6 +122,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -136,6 +140,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

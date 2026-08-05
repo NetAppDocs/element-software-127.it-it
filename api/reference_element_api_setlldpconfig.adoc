@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo SetLldpConfig per configurare le imp
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -63,6 +64,7 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha il seguente valore restituito:
@@ -81,6 +83,7 @@ Oggetto JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -99,6 +102,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:

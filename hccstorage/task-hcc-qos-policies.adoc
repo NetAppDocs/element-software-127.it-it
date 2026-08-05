@@ -30,6 +30,7 @@ Utilizzando NetApp Hybrid Cloud Control, è possibile creare e gestire policy Qo
 
 
 
+[[create-a-qos-policy]]
 == Creare una policy QoS
 
 È possibile creare policy QoS e applicarle a volumi che devono avere performance equivalenti.
@@ -57,6 +58,7 @@ Viene generato un ID di sistema per il criterio e il criterio viene visualizzato
 
 
 
+[[apply-a-qos-policy-to-a-volume]]
 == Applicare un criterio QoS a un volume
 
 È possibile assegnare una policy QoS esistente a un volume utilizzando NetApp Hybrid Cloud Control.
@@ -83,6 +85,7 @@ NOTE: L'assegnazione di QoS sovrascriverà i valori di QoS dei singoli volumi pr
 
 
 
+[[change-the-qos-policy-assignment-of-a-volume]]
 == Modificare l'assegnazione del criterio QoS di un volume
 
 È possibile rimuovere l'assegnazione di una policy QoS da un volume o selezionare una policy QoS diversa o una QoS personalizzata.
@@ -111,6 +114,7 @@ NOTE: Quando i criteri QoS sono disattivati, il volume utilizza i valori IOPS Qo
 
 
 
+[[edit-a-qos-policy]]
 == Modificare un criterio QoS
 
 È possibile modificare il nome di un criterio QoS esistente o i valori associati al criterio. La modifica dei valori delle performance dei criteri QoS influisce sulla QoS per tutti i volumi associati al criterio.
@@ -139,6 +143,7 @@ TIP: È possibile selezionare un criterio sul collegamento nella colonna *volumi
 
 
 
+[[delete-a-qos-policy]]
 == Eliminare una policy QoS
 
 È possibile eliminare una policy QoS se non è più necessaria. Quando si elimina un criterio QoS, tutti i volumi assegnati con il criterio mantengono i valori QoS precedentemente definiti dal criterio, ma come QoS dei singoli volumi. Qualsiasi associazione con la policy QoS eliminata viene rimossa.

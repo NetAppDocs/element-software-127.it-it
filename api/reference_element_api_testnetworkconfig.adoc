@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo TestNetworkConfig per verificare che 
 
 
 
+[[parameters]]
 == Parametri
 
 Quando si configura un nodo con il metodo SetNetworkConfig, nell'interfaccia utente o nell'interfaccia telefonica utente, la configurazione viene convalidata e memorizzata. Il test dell'API TestNetworkConfig utilizza la configurazione memorizzata per la logica post-convalida. Ad esempio, in caso di interruzione dell'alimentazione o di errore di rete, è possibile utilizzare questo metodo API per garantire che un nodo sia in esecuzione con la configurazione di rete attualmente memorizzata. In questo modo si conferma l'assenza di errori nella configurazione e l'utilizzo della configurazione corrente.
@@ -25,6 +26,7 @@ Questo metodo non ha parametri di input.
 
 
 
+[[return-value]]
 == Valore restituito
 
 Questo metodo ha il seguente valore restituito:
@@ -43,6 +45,7 @@ Oggetto JSON
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -57,6 +60,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example-1]]
 == Esempio di risposta 1
 
 Se non vengono rilevati errori, non viene restituita alcuna risposta.
@@ -76,6 +80,7 @@ Se non vengono rilevati errori, non viene restituita alcuna risposta.
 ----
 
 
+[[response-example-2]]
 == Esempio di risposta 2
 
 Esempio di mancata corrispondenza MTU.
@@ -100,6 +105,7 @@ Esempio di mancata corrispondenza MTU.
 ----
 
 
+[[response-example-3]]
 == Esempio di risposta 3
 
 Esempio di percorso statico mancante.
@@ -124,12 +130,14 @@ Esempio di percorso statico mancante.
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]

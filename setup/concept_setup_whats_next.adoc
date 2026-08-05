@@ -24,6 +24,7 @@ Dopo aver configurato il software Element, è possibile gestire lo storage compl
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentazione software SolidFire ed Element"]

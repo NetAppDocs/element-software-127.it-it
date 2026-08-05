@@ -15,6 +15,7 @@ L'oggetto fault contiene informazioni sugli errori rilevati nel cluster. Il `Lis
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -180,6 +181,7 @@ stringa
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:reference_element_api_listclusterfaults.adoc[ListClusterFaults]

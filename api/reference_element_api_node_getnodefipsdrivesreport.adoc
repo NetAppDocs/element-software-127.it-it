@@ -15,12 +15,14 @@ summary: È possibile utilizzare il metodo GetNodeFipsDrivesReport per controlla
 
 
 
+[[parameter]]
 == Parametro
 
 Questo metodo non ha alcun parametro di input.
 
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -44,6 +46,7 @@ stringa
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -58,6 +61,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -73,6 +77,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 11,5

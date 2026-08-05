@@ -15,6 +15,7 @@ L'oggetto snmpTrapRecipient contiene informazioni su un host configurato per ric
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:

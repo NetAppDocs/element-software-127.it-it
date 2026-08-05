@@ -35,6 +35,7 @@ Dopo l'aggiunta di un cluster di storage, è possibile monitorare le prestazioni
 
 
 
+[[add-a-storage-cluster]]
 == Aggiungere un cluster di storage
 
 È possibile aggiungere un cluster di storage all'inventario delle risorse del nodo di gestione utilizzando NetApp Hybrid Cloud Control. Ciò consente di gestire e monitorare il cluster utilizzando l'interfaccia utente HCC.
@@ -63,6 +64,7 @@ NOTE: Dopo aver aggiunto il cluster di storage, l'inventario del cluster può im
 
 
 
+[[confirm-storage-cluster-status]]
 == Confermare lo stato del cluster di storage
 
 È possibile monitorare lo stato di connessione delle risorse dei cluster di storage utilizzando l'interfaccia utente di NetApp Hybrid Cloud Control.
@@ -76,6 +78,7 @@ NOTE: Dopo aver aggiunto il cluster di storage, l'inventario del cluster può im
 
 
 
+[[edit-storage-cluster-credentials]]
 == Modificare le credenziali del cluster di storage
 
 È possibile modificare il nome utente e la password dell'amministratore del cluster di storage utilizzando l'interfaccia utente di NetApp Hybrid Cloud Control.
@@ -91,6 +94,7 @@ NOTE: Dopo aver aggiunto il cluster di storage, l'inventario del cluster può im
 
 
 
+[[remove-a-storage-cluster]]
 == Rimuovere un cluster di storage
 
 La rimozione di un cluster di storage da NetApp Hybrid Cloud Control rimuove il cluster dall'inventario dei nodi di gestione. Dopo aver rimosso un cluster di storage, il cluster non può più essere gestito da HCC e l'accesso è possibile solo accedendo direttamente al relativo indirizzo IP di gestione.
@@ -112,6 +116,7 @@ CAUTION: Selezionando *Yes* NEXT (Sì), il cluster viene rimosso dall'installazi
 
 
 
+[[enable-and-disable-maintenance-mode]]
 == Attiva e disattiva la modalità di manutenzione
 
 Se devi portare un nodo storage offline per manutenzione, come ad esempio aggiornamenti software o riparazioni host, puoi ridurre al minimo l'impatto di i/o per il resto del cluster storage in base alla modalità di manutenzione per <<enable_main_mode,abilitazione in corso>>quel nodo. Quando si utilizza <<disable_main_mode,disattiva>>la modalità di manutenzione, il nodo viene monitorato per garantire che vengano soddisfatti determinati criteri prima che il nodo possa uscire dalla modalità di manutenzione.
@@ -125,6 +130,7 @@ Se devi portare un nodo storage offline per manutenzione, come ad esempio aggior
 
 
 
+[[enablemainmodeenable-maintenance-mode]]
 === [[ENABLE_MAIN_MODE]]attiva la modalità di manutenzione
 
 È possibile utilizzare la procedura seguente per attivare la modalità di manutenzione per un nodo del cluster di storage.
@@ -170,6 +176,7 @@ Una volta completata l'attivazione della modalità di manutenzione*, nella colon
 
 
 
+[[disablemainmodedisable-maintenance-mode]]
 === [[disable_MAIN_MODE]]Disattiva la modalità di manutenzione
 
 Dopo che un nodo è stato impostato correttamente in modalità di manutenzione, l'azione *Disable Maintenance Mode* (Disattiva modalità di manutenzione) è disponibile per questo nodo. Le azioni sugli altri nodi non sono disponibili fino a quando la modalità di manutenzione non viene disattivata correttamente sul nodo sottoposto a manutenzione.
@@ -190,6 +197,7 @@ NOTE: Quando un nodo è in modalità di manutenzione, non accetta nuovi dati. Di
 
 
 
+[[troubleshoot]]
 === Risolvere i problemi
 
 Se si verificano errori durante l'attivazione o la disattivazione della modalità di manutenzione, viene visualizzato un errore di intestazione nella parte superiore della tabella Nodes (nodi). Per ulteriori informazioni sull'errore, selezionare il collegamento *Mostra dettagli* fornito sul banner per visualizzare i risultati dell'API.

@@ -15,6 +15,7 @@ L'oggetto volumeStats contiene dati statistici per un singolo volume.
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 È possibile utilizzare i seguenti metodi per ottenere oggetti volumeStats per alcuni o tutti i volumi:

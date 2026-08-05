@@ -24,6 +24,7 @@ keywords: netapp, element, cluster, volume, access
 
 
 
+[[add-a-volume-access-group]]
 == Aggiungere un gruppo di accesso al volume
 
 È possibile aggiungere un gruppo di accesso a un volume a un cluster di storage utilizzando NetApp Hybrid Cloud Control.
@@ -45,6 +46,7 @@ Se si associa un iniziatore al gruppo di accesso al volume, tale iniziatore può
 
 
 
+[[edit-a-volume-access-group]]
 == Modificare un gruppo di accesso al volume
 
 È possibile modificare le proprietà di un gruppo di accesso a un volume esistente utilizzando NetApp Hybrid Cloud Control. È possibile modificare il nome, gli iniziatori associati o i volumi associati di un gruppo di accesso.
@@ -63,6 +65,7 @@ Se si associa un iniziatore al gruppo di accesso al volume, tale iniziatore può
 
 
 
+[[delete-a-volume-access-group]]
 == Eliminare un gruppo di accesso al volume
 
 È possibile rimuovere un gruppo di accesso al volume utilizzando NetApp Hybrid Cloud Control e, allo stesso tempo, rimuovere dal sistema gli iniziatori associati a questo gruppo di accesso.

@@ -29,6 +29,7 @@ Nella finestra *Authentication Required* (autenticazione richiesta), immettere i
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_replication_pair_cluster_using_pairing_key.adoc[Associare i cluster utilizzando una chiave di accoppiamento]

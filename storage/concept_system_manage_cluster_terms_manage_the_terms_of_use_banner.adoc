@@ -18,6 +18,7 @@ summary: 'È possibile attivare, modificare o configurare un banner contenente u
 
 
 
+[[enable-the-terms-of-use-banner]]
 == Attivare il banner Termini di utilizzo
 
 È possibile attivare un banner Termini di utilizzo che viene visualizzato quando un utente accede all'interfaccia utente di Element. Quando l'utente fa clic sul banner, viene visualizzata una finestra di dialogo contenente il messaggio configurato per il cluster. Il banner può essere ignorato in qualsiasi momento.
@@ -35,6 +36,7 @@ NOTE: Non superare i 4096 caratteri.
 
 
 
+[[edit-the-terms-of-use-banner]]
 == Modificare il banner Termini di utilizzo
 
 Puoi modificare il testo visualizzato dall'utente quando seleziona il banner di accesso Termini di utilizzo.
@@ -56,6 +58,7 @@ NOTE: Non superare i 4096 caratteri.
 
 
 
+[[disable-the-terms-of-use-banner]]
 == Disattiva il banner Termini di utilizzo
 
 È possibile disattivare il banner Termini di utilizzo. Con il banner disattivato, non viene più richiesto all'utente di accettare i termini di utilizzo quando si utilizza l'interfaccia utente di Element.

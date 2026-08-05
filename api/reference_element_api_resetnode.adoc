@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare il metodo ResetNode per ripristinare le impost
 
 
 
+[[parameters]]
 == Parametri
 
 L'API ResetNode può essere utilizzata solo su nodi che si trovano in uno stato "disponibile". Non può essere utilizzato su nodi "attivi" in un cluster o in uno stato "in sospeso".
@@ -69,12 +70,14 @@ No
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo non ha valori restituiti.
 
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -92,6 +95,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -150,6 +154,7 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 9,6

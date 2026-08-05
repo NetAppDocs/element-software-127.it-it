@@ -15,6 +15,7 @@ summary: È possibile utilizzare il metodo DisableMaintenanceMode per portare un
 
 
 
+[[parameters]]
 == Parametri
 
 Questo metodo ha i seguenti parametri di input:
@@ -37,6 +38,7 @@ Sì
 |===
 
 
+[[return-values]]
 == Valori restituiti
 
 Questo metodo ha i seguenti valori restituiti:
@@ -91,6 +93,7 @@ MaintenanceMode (stringa)
 |===
 
 
+[[request-example]]
 == Esempio di richiesta
 
 Le richieste per questo metodo sono simili all'esempio seguente:
@@ -107,6 +110,7 @@ Le richieste per questo metodo sono simili all'esempio seguente:
 ----
 
 
+[[response-example]]
 == Esempio di risposta
 
 Questo metodo restituisce una risposta simile all'esempio seguente:
@@ -125,12 +129,14 @@ Questo metodo restituisce una risposta simile all'esempio seguente:
 ----
 
 
+[[new-since-version]]
 == Novità dalla versione
 
 12,2
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html["Concetti relativi alla modalità di manutenzione dello storage NetApp HCI"^]

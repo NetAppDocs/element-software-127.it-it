@@ -15,6 +15,7 @@ L'oggetto Drive contiene informazioni sui singoli dischi nei nodi attivi del clu
 
 
 
+[[object-members]]
 == Membri dell'oggetto
 
 Questo oggetto contiene i seguenti membri:
@@ -171,6 +172,7 @@ intero
 |===
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 xref:reference_element_api_listdrives.adoc[ListDrive]

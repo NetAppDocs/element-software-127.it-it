@@ -39,6 +39,7 @@ IMPORTANT: Non modificare i caratteri della chiave di accoppiamento. La chiave d
 
 
 
+[[find-more-information]]
 == Trova ulteriori informazioni
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[Associare i cluster utilizzando MVIP]
